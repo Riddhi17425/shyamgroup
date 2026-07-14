@@ -1,0 +1,53 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine on
+	#RewriteBase /
+	#RewriteCond %{http_host} ^shyamgroups.co.in [nc]
+	#rewriterule ^(.*)$ http://www.shyamgroups.co.in/$1 [r=301,nc]
+	RewriteCond %{HTTP_HOST} !^www\.(.*)
+    RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+    RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+    RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule (.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
+	RewriteCond $1 !^(index\.php|project_images|banner_images|ad_images|bower_components|build|dist|plugins|resources|robots\.txt)
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+	Redirect /company-profile.php /company-profile
+	Redirect /vision-and-mission.php /vision-and-mission
+	Redirect /team.php /team
+	Redirect /associate-team.php /associate-team
+	Redirect /dholera-news.php /dholera-news
+	Redirect /press-release.php /pressrelease
+	Redirect /current-status-dholera.php /current-status-dholera
+	Redirect /tenders.php /tenders
+	Redirect /our-projects.php /our-projects
+	Redirect /legal-documents.php /legal-documents
+	Redirect /testimonial.php /testimonials
+	Redirect /events-and-exhibitions.php /event-exhibitions
+	Redirect /certificate.php /certificate
+	Redirect /contact-us.php /contact-us
+	Redirect /payment.php /payment
+	Redirect /shyam-repose /smart-city
+
+	#Redirect /shyam-villa.php /Project/index/2
+	#Redirect /pinnacle-city.php /Project/index/5
+	#Redirect /dholera-global-city.php /Project/index/6
+	#Redirect /shyam-repose.php /Project/index/9
+
+	Redirect /shyam-villa.php /shyam-villa
+	Redirect /pinnacle-city.php /pinnacle-city
+	Redirect /dholera-global-city.php /dholera-global-city
+	Redirect /smart-city.php /smart-city
+	
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+

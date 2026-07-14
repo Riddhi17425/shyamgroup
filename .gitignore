@@ -1,0 +1,32 @@
+# --- Large backup/export files that caused push issues before ---
+*.zip
+*.tar.gz
+*.rar
+backup*.zip
+backup*.sql
+*.sql
+
+# --- CodeIgniter 3 specific ---
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+
+# --- Session files (if using file-based sessions) ---
+application/sessions/*
+!application/sessions/index.html
+
+# --- cPanel / hosting junk ---
+.well-known/
+cgi-bin/
+*.lock-*
+.htaccess.phpupgrader.*
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Environment-specific ---
+.env

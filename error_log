@@ -1,0 +1,2 @@
+[09-Sep-2023 06:40:58 UTC] PHP Fatal error:  Attribute "ReturnTypeWillChange" cannot target function (allowed targets: method) in /home1/shyamdky/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 167
+[09-Sep-2023 06:42:00 UTC] PHP Fatal error:  Cannot use "self" when no class scope is active in /home1/shyamdky/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 211
