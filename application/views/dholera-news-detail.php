@@ -9,42 +9,21 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Best Residential Plots at Dholera, Best Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property, Ahmedabad Property">
-<meta name="description" content="Check it latest updates related to Dholera SIR 1st planned smart city of India.">
-<title>Shyam Group - Dholera SIR News</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/dholera-news.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -63,8 +42,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> -->
   </div>
   <!-- Banner area end -->
-  
-  
+
+
   <section class="call-to-action">
     <div class="container">
       <div class="coman_routs">
@@ -73,32 +52,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div><p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> News Detail</p> </div>
         <div class="col-md-2 col-xs-12">
-          <div class="call-to-action-btn-angle"> 
+          <div class="call-to-action-btn-angle">
           <!--<a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-phone"></i>Contact Us</a> -->
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
  <section>
      <div class="container">
          <div class="text-center">
              <h1 class="new_details_head">Dholera News Detail</h1>
              <p>Published Apr 30 2025</p>
          </div>
-         
+
          <div class="mt-5">
              <img width="100%" src="https://www.intelliworkz.co.in/shyamgroup/shyam_admin/upload/dholera/WhatsApp_Image_2021-11-24_at_5_34_30_PM_(1).jpeg" alt="image"/>
          </div>
-         
+
          <div>
              <h3>Introduction</h3>
              <p>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit numquam dolore fugiat quam nam perspiciatis est consectetur sapiente vel, maxime dolores amet doloribus ab exercitationem quasi assumenda! Autem, qui.
              </p>
          </div>
-         
+
          <div>
              <h2>Lorem ipsum dolor</h2>
              <ul class="news_details_list">
@@ -110,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  <li><b>See Also:</b> <b><a href="#">Lorem ipsum dolor amet consectetur adipisicing elit.</a></b></li>
              </ul>
          </div>
-         
+
          <div>
              <h2>Lorem ipsum dolor</h2>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -123,13 +102,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  <!--<li><b>See Also:</b> <b><a href="#">Buy India’s Best RO Water Purifiers At Cloud Water</a></b></li>-->
              </ul>
          </div>
-         
+
          <div>
              <h2>Lorem ipsum dolor</h2>
              <p><b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Laudantium suscipit numquam dolore fugiat quam nam <a href="#">perspiciatis est consectetur</a>  sapiente vel, maxime dolores amet doloribus ab exercitationem quasi assumenda! Autem, qui.</p>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Laudantium suscipit</b> numquam dolore fugiat quam nam perspiciatis est consectetur sapiente vel, maxime dolores amet <a href="#">doloribus ab exercitationem quasi</a>  assumenda! Autem, qui.</p>
          </div>
-         
+
          <div>
              <h2>Lorem ipsum dolor</h2>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -147,27 +126,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
              <p><b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Laudantium suscipit numquam dolore fugiat quam nam <a href="#">perspiciatis est consectetur</a>  sapiente vel, maxime dolores amet doloribus ab exercitationem quasi assumenda! Autem, qui.</p>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Laudantium suscipit</b> numquam dolore fugiat quam nam perspiciatis est consectetur sapiente vel, maxime dolores amet <a href="#">doloribus ab exercitationem quasi</a>  assumenda! Autem, qui.</p>
          </div>
-         
+
          <div class="pro_det_banner">
              <img src="https://www.intelliworkz.co.in/shyamgroup/images/banner/dholera-news.png" alt="image">
          </div>
-         
+
          <div class="pro_det_con">
              <h3>Conclusion</h3>
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo ex corrupti quam necessitatibus quae tempore. Veniam, quae ex. Atque sit mollitia asperiores itaque tenetur impedit, eligendi tempore! Omnis, possimus!</p>
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nemo ex corrupti quam necessitatibus quae tempore. Veniam, quae ex. Atque sit mollitia asperiores itaque tenetur impedit, eligendi tempore! Omnis, possimus!</p>
          </div>
      </div>
-     
+
  </section>
   <!-- Main container end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

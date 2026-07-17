@@ -88,13 +88,13 @@
 }
 </style>
 <?php
-  $segment = $this->uri->segment(1);
-  $is_contact_page = $segment == 'contact-us';
-  $is_vendor_page  = $segment == 'vender';
+    $segment         = $this->uri->segment(1);
+    $is_contact_page = $segment == 'contact-us';
+    $is_vendor_page  = $segment == 'vender';
 ?>
 <section class="top_ft">
   <div class="container">
-    <div class="top_ft_card" style="<?php echo ($is_contact_page || $is_vendor_page) ? 'display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;' : ''; ?>">
+    <div class="top_ft_card" style="<?php echo($is_contact_page || $is_vendor_page) ? 'display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;' : ''; ?>">
 
       <!-- Ahmedabad Office (Always show) -->
       <div class="col-md-4">
@@ -102,13 +102,13 @@
           <span class="action-box-icon"><i class="fa fa-map-marker"></i></span>
           <div class="action-box-content">
             <h3>Ahmedabad Office</h3>
-            <a href="https://maps.app.goo.gl/qvX7ugjpkAotpFZQ8" target="_blank" class="action-box-text">Shyam Group:107-108, Square Corporate Park,<br> Nr. CIMS Hospital, Science City Road, Ahmedabad-59.<br></a>
+            <a href="https://maps.app.goo.gl/qvX7ugjpkAotpFZQ8" target="_blank" rel="noopener noreferrer" class="action-box-text">Shyam Group:107-108, Square Corporate Park,<br> Nr. CIMS Hospital, Science City Road, Ahmedabad-59.<br></a>
           </div>
         </div>
       </div>
 
       <!-- For Vendor (Hide on /vender page) -->
-      <?php if (!$is_vendor_page) { ?>
+      <?php if (! $is_vendor_page) {?>
       <div class="col-md-4">
         <div class="action-box">
           <span class="action-box-icon"><i class="fa fa-wrench"></i></span>
@@ -119,24 +119,24 @@
           </div>
         </div>
       </div>
-      <?php } ?>
+      <?php }?>
 
       <!-- Contact Us (Hide on /contact-us page) -->
-      <?php if (!$is_contact_page) { ?>
+      <?php if (! $is_contact_page) {?>
       <div class="col-md-4">
         <div class="action-box">
           <span class="action-box-icon"><i class="fa fa-comments"></i></span>
           <div class="action-box-content">
             <h3>Contact Us</h3>
             <p class="action-box-text">
-              <i class="fa fa-envelope-o"></i> <span style="margin-left:8px;"><a href="mailto:info@shyamgroups.co.in" target="_blank" class="action-box-text">info@shyamgroups.co.in</a></span><br>
-              <a href="tel:+918511332200" target="_blank" class="action-box-text">Call us :  +91 85 11 33 22 00</a>
+              <i class="fa fa-envelope-o"></i> <span style="margin-left:8px;"><a href="mailto:info@shyamgroups.co.in" target="_blank" rel="noopener noreferrer" class="action-box-text">info@shyamgroups.co.in</a></span><br>
+              <a href="tel:+918511332200" target="_blank" rel="noopener noreferrer" class="action-box-text">Call us :  +91 85 11 33 22 00</a>
             </p>
             <p><a href="<?php echo base_url(); ?>contact-us" class="ft_btn"> Learn More</a></p>
           </div>
         </div>
       </div>
-      <?php } ?>
+      <?php }?>
 
     </div>
   </div>
@@ -155,10 +155,10 @@
       <!--        <p><a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-caret-right"> </i> Find More</a></p>-->
       <!--      </div>-->
       <!--    </div>-->
-          <!-- Action box 1 end --> 
+          <!-- Action box 1 end -->
       <!--  </div>-->
         <!-- Col end -->
-        
+
       <!--  <div class="col-md-4">-->
       <!--    <div class="action-box"> <span class="action-box-icon"> <i class="fa fa-wrench"></i> </span>-->
       <!--      <div class="action-box-content">-->
@@ -167,10 +167,10 @@
       <!--        <p><a href="<?php echo base_url(); ?>vender"><i class="fa fa-caret-right"> </i> Learn More</a></p>-->
       <!--      </div>-->
       <!--    </div>-->
-          <!-- Action box 2 end --> 
+          <!-- Action box 2 end -->
       <!--  </div>-->
         <!-- Col end -->
-        
+
       <!--  <div class="col-md-4">-->
       <!--    <div class="action-box"> <span class="action-box-icon"> <i class="fa fa-comments"></i> </span>-->
       <!--      <div class="action-box-content">-->
@@ -180,17 +180,17 @@
       <!--        <p><a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-caret-right"> </i> Learn More</a></p>-->
       <!--      </div>-->
       <!--    </div>-->
-          <!-- Action box 3 end --> 
+          <!-- Action box 3 end -->
       <!--  </div>-->
-        <!-- Col end --> 
-        
+        <!-- Col end -->
+
       <!--</div>-->
-      <!-- Content row end --> 
+      <!-- Content row end -->
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </div>
   <!-- Footer top end -->
-  
+
   <div class="footer-main">
     <div class="container">
       <div class="footer_main_child">
@@ -199,17 +199,16 @@
               <p class="mt-5 mb-5">
                 Established in 2013, Shyam Group is one of the prominent real estate developers at Dholera SIR Gujarat. Apart from the real estate business the group operates across multiple sectors including healthcare, education and business research.</p>
               <div class="ft_social">
-                  
                   <!--<img src="<?php echo base_url(); ?>images/new_images/x.svg" alt="shyamgroup" width="24" height="24">-->
-                  <a href="https://www.instagram.com/shyamgroup.official/" target="_blank">
-                     <img src="<?php echo base_url(); ?>images/new_images/insta.svg" alt="shyamgroup" width="24" height="24"> 
-                  </a>
-                  <a href="https://www.facebook.com/shyamgroups" target="_blank">
-                      <img src="<?php echo base_url(); ?>images/new_images/fb.svg" alt="shyamgroup" width="24" height="24">
-                  </a>
-                  <a href="https://www.linkedin.com/company/shyam-infrazone-private-limited/" target="_blank">
-                    <img src="<?php echo base_url(); ?>images/new_images/linkedin.svg" alt="shyamgroup" width="24" height="24">
-                  </a>
+                 <a href="https://www.instagram.com/shyamgroup.official/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                  <img src="<?php echo base_url(); ?>images/new_images/insta.svg" alt="Shyam Group Instagram page" width="24" height="24">
+                </a>
+                <a href="https://www.facebook.com/shyamgroups" target="_blank" rel="noopener noreferrer" title="Facebook">
+                    <img src="<?php echo base_url(); ?>images/new_images/fb.svg" alt="Shyam Group Facebook page" width="24" height="24">
+                </a>
+                <a href="https://www.linkedin.com/company/shyam-infrazone-private-limited/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                  <img src="<?php echo base_url(); ?>images/new_images/linkedin.svg" alt="Shyam Group LinkedIn page" width="24" height="24">
+                </a>
               </div>
           </div>
           <div class="col-md-5 offset-md-1 col-12 col-sm-12">
@@ -260,23 +259,23 @@
         <!--  </ul>-->
         <!--</div>-->
         <!-- Col end -->
-        
+
         <!--<div class="col-md-3 col-sm-12 footer-widget">-->
         <!--  <h3 class="widget-title">Dholera Sir Planned Smart City</h3>-->
         <!--  <iframe width="220" height="270" src="https://www.youtube.com/embed/4Dtg6_h6wdQ" frameborder="0" allowfullscreen></iframe>-->
         <!--</div>-->
         <!-- Col end -->
-        
+
         <!--<div class="col-md-3 col-sm-12 footer-widget">-->
         <!--  <h3 class="widget-title">Dholera News</h3>-->
         <!--  <ul class="list-arrow">-->
-        <!--    <?php foreach($tbl_news_footer as $news_footer_list): ?>-->
-        <!--    <li><a href="<?php echo base_url(); ?>Dholera_News/detail/<?php echo $news_footer_list['id'];?>"><?php echo $news_footer_list['title'];?></a></li>-->
+        <!--    <?php foreach ($tbl_news_footer as $news_footer_list): ?>-->
+        <!--    <li><a href="<?php echo base_url(); ?>Dholera_News/detail/<?php echo $news_footer_list['id']; ?>"><?php echo $news_footer_list['title']; ?></a></li>-->
         <!--    <?php endforeach; ?>-->
         <!--  </ul>-->
         <!--</div>-->
         <!-- Col end -->
-        
+
         <!--<div class="col-md-5 col-sm-12 footer-widget">-->
         <!--  <h3 class="widget-title">Address</h3>-->
           <!--<div class="working-hours"> <i class="fa fa-home"> </i> <b class="ft_title">Ahmedabad Office :-</b> <br>-->
@@ -295,16 +294,16 @@
         <!--</div>-->
               </div>
           </div>
-        
-        <!-- Col end --> 
-        
+
+        <!-- Col end -->
+
       </div>
-      <!-- Row end --> 
+      <!-- Row end -->
     </div>
-    <!-- Container end --> 
+    <!-- Container end -->
   </div>
   <!-- Footer main end -->
-  
+
   <div class="copyright">
     <div class="container">
       <div class="row">
@@ -331,15 +330,15 @@
         <!--</div>-->
       </div>
       <!-- Row end -->
-      
+
       <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
         <button class="btn btn-primary" title="Back to Top"> <i class="fa fa-angle-double-up"></i> </button>
       </div>
     </div>
-    <!-- Container end --> 
+    <!-- Container end -->
   </div>
-  <!-- Copyright end --> 
-  
+  <!-- Copyright end -->
+
 </footer>
  <!--Footer end -->
  <!--whatsapp btn-->
@@ -400,14 +399,14 @@ Social Media
                         <!--</select>-->
                     </div>
                 </div>
-            
+
                 <div class="row mb-5">
                     <div class="col-md-12">
                         <label>Message</label>
                         <textarea class="form-control form-control-message" name="comment" placeholder="Enter Your Message" rows="2"></textarea>
                     </div>
                 </div>
-        
+
                 <div class="row mb-5">
                     <div class="col-md-12">
                         <label>Confirm Captcha</label>
@@ -415,10 +414,10 @@ Social Media
                         <div class="g-recaptcha" data-sitekey="6LcYahEsAAAAALj0QYHkfniCG6LuVAOoI8dW8_T1" data-callback="verifyCaptcha"></div>
                         <!-- Hidden input for jQuery validation -->
                         <input type="hidden" name="hiddenRecaptcha" id="hiddenRecaptcha">
-    
+
                      </div>
                 </div>
-        
+
                 <div>
                     <input type="submit" name="submit" value="Submit" class="btn btn-primary solid blank">
                 </div>
@@ -432,7 +431,7 @@ Social Media
   <div class="modal fade whatsapp-form-modal" id="whatsappModal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content whatsapp-modal">
-     
+
       <div class="modal-header whatsapp-header">
           <div class="model-head-title">
         <h5 class="modal-title">Chat with us on WhatsApp</h5>
@@ -442,12 +441,12 @@ Social Media
         </div>
       </div>
 
-     
+
       <div class="modal-body">
         <form id="whatsappForm" method="post"
-      action="<?= site_url('whatsapp/inquiry'); ?>">
+      action="<?php echo site_url('whatsapp/inquiry'); ?>">
 
-          
+
           <div class="form-group">
             <label>Message</label>
             <textarea class="form-control"
@@ -456,7 +455,7 @@ Social Media
               rows="3"></textarea>
           </div>
 
-         
+
           <div class="form-group">
             <label>Contact No. <span class="text-danger">*</span></label>
             <input type="text"
@@ -466,7 +465,7 @@ Social Media
               oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0,15);" required>
           </div>
 
-         
+
           <div class="text-center">
             <button type="submit" class="btn whatsapp-btn">
               Start Chat with Us
@@ -480,7 +479,7 @@ Social Media
   </div>
 </div>
 
-  
+
 </div>
 
   <!-- Modal for WhatsApp Inquiry -->
@@ -524,7 +523,7 @@ Social Media
   },
   "sameAs": [
     "https://www.facebook.com/shyamgroups",
-    "https://twitter.com/shyamgroups",
+    "https://x.com/shyamgroups",
     "https://www.linkedin.com/company/shyam-infrazone-private-limited"
   ]
 }

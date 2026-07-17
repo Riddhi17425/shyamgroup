@@ -9,42 +9,21 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Best Residential Plots at Dholera, Best Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property, Ahmedabad Property">
-<meta name="description" content="Mr. Sudhir A Patel is the Chairman and Managing Director. Mr. Chirag D Parekh and Mr. Hardik C Shah are promoter and director of Shyam Group of Companies.">
-<title>About Shyam Group Team</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/team.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -63,7 +42,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> -->
   </div>
   <!-- Banner area end -->
-  
+
     <section class="call-to-action">
     <div class="container">
       <div class="coman_routs">
@@ -72,14 +51,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div><p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> Leadership</p> </div>
         <div class="col-md-2 ">
-          <div class="call-to-action-btn-angle"> 
+          <div class="call-to-action-btn-angle">
           <!--<a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-phone"></i>Contact Us</a> -->
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <section id="main-container" class="main-container">
     <div class="container">
       <div class="row">
@@ -96,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="ts-designation  mb-5">Chairman & Managing Director, Shyam Group</p>
                 <p class="ts-description" style="text-align: justify;">Mr. Sudhir A Patel is the Chairman and Managing Director of Shyam Group of Companies. He is a Science Graduate and has completed M.Sc in Chemistry from Gujarat University. He is extremely foresighted and insightful due to his vast experience in corporate like Intas, Zydus, Astron Research and Amneal Pharma Etc. He is very focused and dynamic in his decision making process as an Entrepreneur. Scaling up strategies, investment life cycle, cost reduction, creative ways to improve productivity and institutionalizing organization with best practices and processes is his forte.</p>
               </div>
-            </div> 
+            </div>
           </div>
           <div class="col-md-12 mb-5">
           	<div class="ts-team-wrapper"style="padding:0">
@@ -136,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="ts-designation">Chairman & Managing Director, Shyam Group</p>
                 <p class="ts-description" style="text-align: justify;">Mr. Sudhir A Patel is the Chairman and Managing Director of Shyam Group of Companies. He is a Science Graduate and has completed M.Sc in Chemistry from Gujarat University. He is extremely foresighted and insightful due to his vast experience in corporate like Intas, Zydus, Astron Research and Amneal Pharma Etc. He is very focused and dynamic in his decision making process as an Entrepreneur. Scaling up strategies, investment life cycle, cost reduction, creative ways to improve productivity and institutionalizing organization with best practices and processes is his forte.</p>
               </div>
-            </div> 
+            </div>
           </div>
           <div class="col-md-3">
             <div class="ts-team-wrapper">
@@ -171,16 +150,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </div>
-    <!-- Container end --> 
+    <!-- Container end -->
   </section>
   <!-- Main container end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

@@ -9,44 +9,26 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Best Residential Plots at Dholera, Best Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property, Ahmedabad Property">
-<meta name="description" content="Check it latest updates related to Dholera SIR 1st planned smart city of India.">
-<title>Shyam Group - Blogs</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 
 <style>
-   
 
-        
+
+
         .blog_head
         {
             display:flex;
             gap:20px
         }
 
-      
+
 
         /* Blog Card */
         .blog_card {
@@ -145,20 +127,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             stroke: #fff;
         }
 
-      
+
     </style>
 </style>
 
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/dholera-news.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -201,34 +180,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
              <div class="row g-4 g-md-5">
 
-                <?php if(!empty($tbl_blog)): ?>
-                    <?php foreach($tbl_blog as $blog): ?>
-        
+                <?php if (! empty($tbl_blog)): ?>
+                    <?php foreach ($tbl_blog as $blog): ?>
+
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="blog_card h-100 d-flex flex-column">
-        
+
                                 <!-- BLOG IMAGE -->
                                 <a href="<?php echo base_url(); ?>blog/<?php echo $blog['url']; ?>" class="d-block">
                                     <img src="<?php echo base_url(); ?>images/blogimages/<?php echo $blog['front_image']; ?>"
                                          class="img-fluid"
                                          alt="<?php echo $blog['title']; ?>">
                                 </a>
-        
+
                                 <div class="card-body">
-        
+
                                     <p class="blog_date">
                                         <?php echo date("Y-m-d", strtotime($blog['blog_date'])); ?>
                                     </p>
-        
+
                                     <div class="blog_head mb-3">
-        
+
                                         <!-- BLOG TITLE -->
                                         <h4 class="blog_title">
                                             <a href="<?php echo base_url(); ?>blog/<?php echo $blog['url']; ?>">
                                                 <?php echo $blog['title']; ?>
                                             </a>
                                         </h4>
-        
+
                                         <!-- ARROW ICON -->
                                         <a href="<?php echo base_url(); ?>blog/<?php echo $blog['url']; ?>" class="svg_arrow ms-3">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none">
@@ -239,32 +218,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                       stroke-linejoin="round"/>
                                             </svg>
                                         </a>
-        
+
                                     </div>
-        
+
                                     <!-- DESCRIPTION (4-line limit) -->
                                     <p class="blog_desc limit-to-4-lines">
                                         <?php echo strip_tags($blog['short_description']); ?>
                                     </p>
-        
+
                                 </div>
                             </div>
                         </div>
-        
+
                     <?php endforeach; ?>
                 <?php endif; ?>
-        
+
             </div>
         </div>
     </section>
 
 
-  <?php include('include/footer.php'); ?>
-  
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

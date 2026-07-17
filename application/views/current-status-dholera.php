@@ -9,43 +9,23 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Best Residential Plots at Dholera, Best Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property, Ahmedabad Property">
-<meta name="description" content="Check out the current status of our Smart Infrastructure (plug and play at each plot level) at Dholera SIR. Latest Development on Dholera SIR Smart City.">
-<title>Current Status of our Smart Infrastructure at Dholera SIR</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 <!-- End Google Tag Manager (noscript) -->
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/current-status.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -64,7 +44,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> -->
   </div>
   <!-- Banner area end -->
-  
+
   <section class="call-to-action">
     <div class="container">
       <div class="coman_routs">
@@ -73,14 +53,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div><p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> Current Status of Dholera</p> </div>
         <div class="col-md-2 col-xs-12">
-          <div class="call-to-action-btn-angle"> 
+          <div class="call-to-action-btn-angle">
           <!--<a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-phone"></i>Contact Us</a> -->
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <section id="main-container" class="main-container">
     <div class="container">
       <div class="row">
@@ -98,54 +78,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!--  <div id="page-slider" class="owl-carousel owl-theme page-slider page-slider-small">-->
         <!--    <div class="item"> <img src="<?php echo base_url(); ?>documents/current_status/smart-1-1200x675.jpg" alt="image"> </div>-->
         <!--  </div>-->
-          
-          
-          <!-- Page slider end --> 
+
+
+          <!-- Page slider end -->
         <!--</div>-->
         <!-- Slider col end -->
-        
+
         <!--<div class="col-md-12" style="margin-top: 5%;">-->
         <!--  <h4>Roads & Services</h4>-->
         <!--  <div id="page-slider" class="owl-carousel owl-theme page-slider page-slider-small">-->
         <!--    <div class="item"> <img src="<?php echo base_url(); ?>documents/current_status/Road-2-1200x675.jpg" alt="image"> </div>-->
         <!--  </div>-->
-          <!-- Page slider end --> 
+          <!-- Page slider end -->
         <!--</div>-->
         <!-- Slider col end -->
-        
+
         <!--<div class="col-md-12" style="margin-top: 5%;">-->
         <!--  <h4>ABCD Building</h4>-->
         <!--  <div id="page-slider" class="owl-carousel owl-theme page-slider page-slider-small">-->
         <!--    <div class="item"> <img src="<?php echo base_url(); ?>documents/current_status/ABCD-3-1200x675.jpg" alt="image"> </div>-->
         <!--  </div>-->
-          <!-- Page slider end --> 
+          <!-- Page slider end -->
         <!--</div>-->
         <!-- Slider col end -->
-        
+
         <!--<div class="col-md-12">-->
         <!--  <h4>Water Treatment Plant</h4>-->
         <!--  <div id="page-slider" class="owl-carousel owl-theme page-slider page-slider-small">-->
         <!--    <div class="item"> <img src="<?php echo base_url(); ?>documents/current_status/Water-4-1200x675.jpg" alt="image"> </div>-->
         <!--  </div>-->
-          <!-- Page slider end --> 
+          <!-- Page slider end -->
         <!--</div>-->
         <!-- Slider col end -->
-        
+
         <!--<div class="col-md-12">-->
         <!--  <h4>Sewage Treatment Plant & Common Effluent Treatment Plant</h4>-->
         <!--  <div id="page-slider" class="owl-carousel owl-theme page-slider page-slider-small">-->
         <!--    <div class="item"> <img src="<?php echo base_url(); ?>documents/current_status/Water-4-1200x675.jpg" alt="image"> </div>-->
         <!--  </div>-->
-        
+
         <div class="Cur_Sta_main">
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
                          <div id="page-slider" class="">
                     <div class="item"> <img src="<?php echo base_url(); ?>documents/current_status/all/abcd.jpg"
-                            alt="image"> 
+                            alt="image">
                     </div>
-                     
+
                 </div>
                     </div>
                     <div>
@@ -159,7 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -187,7 +167,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -213,7 +193,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -236,7 +216,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -265,7 +245,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -294,7 +274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -320,7 +300,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -346,7 +326,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -373,7 +353,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -402,7 +382,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -430,7 +410,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -459,7 +439,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -491,7 +471,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -520,7 +500,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -549,7 +529,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
              <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
@@ -575,11 +555,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
              <div class="col-sm-6 mb-5">
                 <div class="Current_Status">
                     <div>
-                        
+
                     </div>
                     <div>
                      <h3 class="card-title"> Interior Works of SPV Building </h3>
@@ -592,8 +572,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </div>
-        
-        
+
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -612,7 +592,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -639,7 +619,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -666,7 +646,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -690,7 +670,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -717,7 +697,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -744,7 +724,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -771,7 +751,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -798,7 +778,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -825,7 +805,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -852,7 +832,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -879,7 +859,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -906,7 +886,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -935,7 +915,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -965,7 +945,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -995,7 +975,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
@@ -1022,12 +1002,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
+
 <!--        <div class="card current-card">-->
 <!--            <div class="card-body">-->
 <!--                <div class="row no-gutters">-->
 <!--                    <div class="col-sm-5">-->
-                        
+
 <!--                    </div>-->
 <!--                    <div class="col-sm-7">-->
 <!--                        <h3 class="card-title"> Adhiya River Bunding Phase-2 </h3>-->
@@ -1039,24 +1019,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
-        
-          <!-- Page slider end --> 
+
+          <!-- Page slider end -->
         </div>
-        <!-- Slider col end --> 
-        
+        <!-- Slider col end -->
+
       <!--</div>-->
-      <!-- Row end --> 
+      <!-- Row end -->
     <!--</div>-->
-    <!-- Conatiner end --> 
+    <!-- Conatiner end -->
   </section>
   <!-- Main container end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

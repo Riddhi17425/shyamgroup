@@ -9,42 +9,21 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Residential plotting scheme, Smart City development, Global City development, Residential plot development, Dholera Smart City">
-<meta name="description" content="Check it our residential plotting scheme named Shyam Villa, Pinnacle City & Dholera Global City. Residential plot development projects named Shyam Repose.">
-<title>Our Residential Plotted Projects in Dholera SIR</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/our-project.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -57,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li>Our Projects</li>
               </ol>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div> -->
@@ -78,9 +57,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </section>
-  
+
   <!--<a class="btn btn-primary" href="https://www.intelliworkz.co.in/shyamgroup/our-projects">View All Projects</a>-->
-  
+
   <section id="main-container" class="main-container">
     <div class="container">
       <div class="row">
@@ -88,49 +67,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h1 class="border-title">Our Projects</h1>
           <!--<p class="border-sub-title"> </p>-->
         </div>
-        <?php 
-          foreach($tbl_projects as $projects_list):
-          $pname = strtolower($projects_list['name']);
-          $pname = str_replace(" ", "-", $pname);
+        <?php
+            foreach ($tbl_projects as $projects_list):
+                $pname = strtolower($projects_list['name']);
+                $pname = str_replace(" ", "-", $pname);
         ?>
         <div class="col-md-4" style="margin-bottom: 5%;">
           <div class="ts-service-box">
-            <div class="ts-service-image-wrapper image-angle"> <img class="img-responsive" src="<?php echo base_url(); ?>documents/project_images/<?php echo $projects_list['image'];?>" alt="image" style="width: 100%; height: 200px;" /> </div>
+            <div class="ts-service-image-wrapper image-angle"> <img class="img-responsive" src="<?php echo base_url(); ?>documents/project_images/<?php echo $projects_list['image']; ?>" alt="image" style="width: 100%; height: 200px;" /> </div>
             <!--<div class="ts-service-box-img pull-left"> <img src="<?php echo base_url(); ?>images/icon-image/service-icon1.png" alt="image" /> </div>-->
             <div class="ts-service-info">
-              <!--<h3 class="service-box-title"><a href="<?php echo base_url(); ?>documents/project_images/<?php echo $projects_list['project_brochure'];?>" target="_new"> Brochure</a></h3>-->
-              <p><strong>Developed by:</strong> <?php echo $projects_list['developed_by']?></p>
-              <p><strong>Project  by:</strong> <?php echo $projects_list['project_by']?></p>
-              
-              <!--<p><a class="learn-more" href="<?php echo base_url().$pname; ?>"><i class="fa fa-caret-right"></i> Read More</a></p>-->
+              <!--<h3 class="service-box-title"><a href="<?php echo base_url(); ?>documents/project_images/<?php echo $projects_list['project_brochure']; ?>" target="_new"> Brochure</a></h3>-->
+              <p><strong>Developed by:</strong> <?php echo $projects_list['developed_by'] ?></p>
+              <p><strong>Project  by:</strong> <?php echo $projects_list['project_by'] ?></p>
+
+              <!--<p><a class="learn-more" href="<?php echo base_url() . $pname; ?>"><i class="fa fa-caret-right"></i> Read More</a></p>-->
             </div>
-            
+
             <div class="row mt-5">
                 <div class="col-sm-6">
-                    <a class="btn btn-primary" href="<?php echo base_url(); ?>documents/project_images/<?php echo $projects_list['project_brochure'];?>" target="_new">View Brochure</a>
+                    <a class="btn btn-primary" href="<?php echo base_url(); ?>documents/project_images/<?php echo $projects_list['project_brochure']; ?>" target="_new">View Brochure</a>
                 </div>
                  <div class="col-sm-6">
-                    <a class="btn btn-primary Our_Projects_btn2" href="<?php echo base_url().$pname; ?>">Read More</a>
+                    <a class="btn btn-primary Our_Projects_btn2" href="<?php echo base_url() . $pname; ?>">Read More</a>
                 </div>
             </div>
           </div>
-          <!-- Service1 end --> 
+          <!-- Service1 end -->
         </div>
         <?php endforeach; ?>
-        <!-- <div class="gap-30"></div> --> 
+        <!-- <div class="gap-30"></div> -->
       </div>
-      <!-- Main row end --> 
+      <!-- Main row end -->
     </div>
-    <!-- Conatiner end --> 
+    <!-- Conatiner end -->
   </section>
   <!-- Main container end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

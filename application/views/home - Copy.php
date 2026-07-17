@@ -26,73 +26,73 @@
   ================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 </head>
 
 <body>
 <div class="body-inner">
   <div class="preload"></div>
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
-  
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
+
   <!-- Carousel -->
-  <div id="main-slide" class="carousel slide" data-ride="carousel"> 
-    
+  <div id="main-slide" class="carousel slide" data-ride="carousel">
+
     <!-- Indicators -->
     <ol class="carousel-indicators visible-lg visible-md">
       <li data-target="#main-slide" data-slide-to="0" class="active"></li>
       <li data-target="#main-slide" data-slide-to="1"></li>
       <li data-target="#main-slide" data-slide-to="2"></li>
     </ol>
-    <!--/ Indicators end--> 
-    
+    <!--/ Indicators end-->
+
     <!-- Carousel inner -->
     <div class="carousel-inner">
-      
+
       <div class="item active" style="background-image:url(<?php echo base_url(); ?>images/slider-main/main-banner1.png)">
         <div class="slider-content text-left">
           <div class="col-md-12">
             <!-- <h2 class="slide-title-box animated2">27 Years Young</h2>
             <h3 class="slide-title animated3">With a Bench Strength of</h3>
             <h3 class="slide-sub-title animated3">1170+ Construction Experts</h3> -->
-            <!-- <p class="animated3"> <a href="#" class="slider btn btn-primary border">Our Services</a> </p> --> 
+            <!-- <p class="animated3"> <a href="#" class="slider btn btn-primary border">Our Services</a> </p> -->
           </div>
         </div>
       </div>
       <!--/ Carousel item 1 end -->
-      
+
       <div class="item" style="background-image:url(<?php echo base_url(); ?>images/slider-main/bg2.jpg)">
         <div class="slider-content">
           <div class="col-md-12 text-center">
             <!-- <h2 class="slide-title animated4">We are the Leader in</h2>
             <h3 class="slide-sub-title animated5">Construction Industry</h3>
             <p class="slider-description lead animated3">We will deal with your failure that determines how you achieve success.</p> -->
-            <!-- <p> <a href="#" class="slider btn btn-primary">Our Services</a> <a href="#" class="slider btn btn-primary border">Call Now</a> </p> --> 
+            <!-- <p> <a href="#" class="slider btn btn-primary">Our Services</a> <a href="#" class="slider btn btn-primary border">Call Now</a> </p> -->
           </div>
         </div>
       </div>
       <!--/ Carousel item 2 end -->
-      
+
       <div class="item" style="background-image:url(<?php echo base_url(); ?>images/slider-main/bg3.jpg)">
         <div class="slider-content text-right">
           <div class="col-md-12">
             <!-- <h2 class="slide-title animated6">Meet Our Engineers</h2>
             <h3 class="slide-sub-title animated7">We care our Cummunities</h3>
             <p class="slider-description lead animated7">We will deal with your failure that determines how you achieve success.</p> -->
-            <!-- <p> <a href="#" class="slider btn btn-primary">Get Free Quote</a> <a href="#" class="slider btn btn-primary border">Learn More</a> </p> --> 
+            <!-- <p> <a href="#" class="slider btn btn-primary">Get Free Quote</a> <a href="#" class="slider btn btn-primary border">Learn More</a> </p> -->
           </div>
         </div>
       </div>
-      <!--/ Carousel item 3 end --> 
-      
+      <!--/ Carousel item 3 end -->
+
     </div>
-    <!-- Carousel inner end--> 
-    
-    <!-- Controllers --> 
+    <!-- Carousel inner end-->
+
+    <!-- Controllers -->
     <a class="left carousel-control" href="#main-slide" data-slide="prev"> <span><i class="fa fa-angle-left"></i></span> </a> <a class="right carousel-control" href="#main-slide" data-slide="next"> <span><i class="fa fa-angle-right"></i></span> </a> </div>
   <!--/ Carousel end -->
-  
+
   <section class="call-to-action">
     <div class="container">
       <div class="row">
@@ -103,12 +103,12 @@
           <div class="call-to-action-btn-angle"> <a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-paper-plane"></i>Contact Us</a> </div>
         </div>
       </div>
-      <!-- Row end --> 
+      <!-- Row end -->
     </div>
-    <!-- Container end --> 
+    <!-- Container end -->
   </section>
   <!-- Call to action end -->
-  
+
   <section id="ts-features" class="ts-features">
     <div class="container">
       <div class="row">
@@ -124,10 +124,10 @@
               <figure><img class="img-responsive" src="<?php echo base_url(); ?>images/intro/intro3.jpg" alt="image"></figure>
             </div>
           </div>
-          <!-- Intro box end --> 
+          <!-- Intro box end -->
         </div>
         <!-- Col end -->
-        
+
         <div class="col-sm-6">
           <div class="featured-tab">
             <ul class="nav nav-tabs">
@@ -145,7 +145,7 @@
                     </div>
                   </div>
                   <!-- Service 1 end -->
-                  
+
                   <div class="ts-service-box"> <span class="ts-service-icon"><i class="fa fa-thumbs-up"> </i></span>
                     <div class="ts-service-box-content">
                       <h3>Customers are our Partners</h3>
@@ -153,12 +153,12 @@
                     </div>
                   </div>
                   <!-- Service 2 end -->
-                  
+
                 </div>
-                <!-- Tab wrapper end --> 
+                <!-- Tab wrapper end -->
               </div>
               <!-- Tab pane 1 end -->
-              
+
               <div class="tab-pane animated fadeInRight" id="tab_b">
                 <p style="text-align: justify;">Shyam Group has 3 residential plotting projects at Dholera SIR and all the projects are located at strategic location which are in the vicinity of Special Investment Region. Amenities like Metro Rail, Trade Center, 6 Lane Expressway and other Government offices are very much nearby to our projects.</p>
                 <div class="ts-service-box"> <span class="ts-service-icon"><i class="fa fa-users"> </i></span>
@@ -168,30 +168,30 @@
                   </div>
                 </div>
                 <!-- Service 1 end -->
-                
+
               </div>
               <!-- Tab pane 2 end -->
-              
+
               <div class="tab-pane animated fadeInLeft" id="tab_c">
                 <img class="pull-left" src="images/banner/Resale Assistance.png" alt="image" style="height: 140px; width: 120px;" />
                 <p style="text-align: justify;">Having confidence in our work and projects we are the only developer at Dholera SIR who are providing RESALE ASSISTANCE to our buyers and investors. This services will help investors to sell thier inventories and also build confidence by investing with Shyam Group.</p>
                 <p style="text-align: justify;">We have specialised team of professional working across the country and their job is to generate leads and customers for our investors. Because of this team we are able to provide you the assistance at very affordable service charges and that too time bound.</p>
               </div>
-              <!-- Tab pane 3 end --> 
+              <!-- Tab pane 3 end -->
             </div>
-            <!-- tab content --> 
+            <!-- tab content -->
           </div>
-          <!-- Featured tab end --> 
-          
+          <!-- Featured tab end -->
+
         </div>
-        <!-- Col end --> 
+        <!-- Col end -->
       </div>
-      <!-- Row end --> 
+      <!-- Row end -->
     </div>
-    <!-- Container end --> 
+    <!-- Container end -->
   </section>
   <!-- Feature are end -->
-  
+
   <section id="facts" class="facts-area bg-overlay no-padding">
     <div class="container">
       <div class="row">
@@ -204,7 +204,7 @@
             </div>
           </div>
           <!-- Col end -->
-          
+
           <div class="col-sm-3 ts-facts">
             <div class="ts-facts-img"> <img src="<?php echo base_url(); ?>images/icon-image/fact2.png" alt="image" /> </div>
             <div class="ts-facts-content">
@@ -213,7 +213,7 @@
             </div>
           </div>
           <!-- Col end -->
-          
+
           <div class="col-sm-3 ts-facts">
             <div class="ts-facts-img"> <img src="<?php echo base_url(); ?>images/icon-image/fact3.png" alt="image" /> </div>
             <div class="ts-facts-content">
@@ -222,7 +222,7 @@
             </div>
           </div>
           <!-- Col end -->
-          
+
           <div class="col-sm-3 ts-facts">
             <div class="ts-facts-img"> <img src="<?php echo base_url(); ?>images/icon-image/fact4.png" alt="image" /> </div>
             <div class="ts-facts-content">
@@ -230,17 +230,17 @@
               <h3 class="ts-facts-title" style="margin: 0px 0px 0px 0px;">Countries Presence across the World</h3>
             </div>
           </div>
-          <!-- Col end --> 
-          
+          <!-- Col end -->
+
         </div>
-        <!-- Facts end --> 
+        <!-- Facts end -->
       </div>
-      <!--/ Content row end --> 
+      <!--/ Content row end -->
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
   <!-- Facts end -->
-  
+
   <section id="ts-service-area" class="ts-service-area">
     <div class="container">
       <div class="row text-center">
@@ -248,7 +248,7 @@
         <p class="border-sub-title">Dholera SIR is India's First Planned Smart City with various amenties coming up which are getting developed by Government of Gujarat and Central Government.</p>
       </div>
       <!--/ Title row end -->
-      
+
       <div class="row">
         <div class="col-md-6">
           <div class="ts-service-box">
@@ -259,7 +259,7 @@
             </div>
           </div>
           <!-- Service 1 end -->
-          
+
           <div class="ts-service-box">
             <div class="ts-service-box-img pull-left"> <img src="<?php echo base_url(); ?>images/icon-image/2.png" alt="image" /> </div>
             <div class="ts-service-box-info">
@@ -268,7 +268,7 @@
             </div>
           </div>
           <!-- Service 2 end -->
-          
+
           <div class="ts-service-box">
             <div class="ts-service-box-img pull-left"> <img src="<?php echo base_url(); ?>images/icon-image/3.png" alt="image" /> </div>
             <div class="ts-service-box-info">
@@ -276,14 +276,14 @@
               <p style="text-align: justify;">Asia's biggest cargo airport is 10 KMs from our project location which increase the value of our projects.</p>
             </div>
           </div>
-          <!-- Service 3 end --> 
-          
+          <!-- Service 3 end -->
+
         </div>
         <!-- Col end -->
-        
+
         <!-- <div class="col-md-4 text-center"> <img class="service-center-img img-responsive" src="<?php echo base_url(); ?>images/services/service-center.png" alt="image" /> </div> -->
         <!-- Col end -->
-        
+
         <div class="col-md-6">
           <div class="ts-service-box">
             <div class="ts-service-box-img pull-left"> <img src="<?php echo base_url(); ?>images/icon-image/4.png" alt="image" /> </div>
@@ -293,7 +293,7 @@
             </div>
           </div>
           <!-- Service 4 end -->
-          
+
           <div class="ts-service-box">
             <div class="ts-service-box-img pull-left"> <img src="<?php echo base_url(); ?>images/icon-image/6.png" alt="image" /> </div>
             <div class="ts-service-box-info">
@@ -302,7 +302,7 @@
             </div>
           </div>
           <!-- Service 5 end -->
-          
+
           <div class="ts-service-box">
             <div class="ts-service-box-img pull-left"> <img src="<?php echo base_url(); ?>images/icon-image/5.png" alt="image" /> </div>
             <div class="ts-service-box-info">
@@ -310,24 +310,24 @@
               <p style="text-align: justify;">India's Biggest Industrial Corridor DMIC is going to pass through Dholera SIR and our projects are located very nearby to the activation area.</p>
             </div>
           </div>
-          <!-- Service 6 end --> 
+          <!-- Service 6 end -->
         </div>
-        <!-- Col end --> 
+        <!-- Col end -->
       </div>
-      <!-- Content row end --> 
-      
+      <!-- Content row end -->
+
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
   <!-- Service end -->
-  
+
   <section id="project-area" class="project-area">
     <div class="container">
       <div class="row">
         <h2 class="title">Gallery</h2>
       </div>
       <!--/ Title row end -->
-      
+
       <div class="row">
         <div class="isotope-nav" data-isotope-nav="isotope">
           <ul>
@@ -337,17 +337,17 @@
             <li><a href="#" data-filter=".shyamrepose">Shyam Repose</a></li>
           </ul>
         </div>
-        <!-- Isotope filter end --> 
+        <!-- Isotope filter end -->
       </div>
-      <!-- Filter row end --> 
+      <!-- Filter row end -->
     </div>
     <!--/ Container end -->
-    
+
     <div id="isotope" class="isotope">
 
       <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-1.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-1.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-1.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -360,8 +360,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-2.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-2.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-2.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -374,8 +374,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-3.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-3.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-3.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -388,8 +388,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-4.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/sv-4.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-4.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -402,8 +402,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-1.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-1.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-1.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -416,8 +416,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-2.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-2.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-2.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -430,8 +430,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-3.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-3.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-3.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -444,8 +444,8 @@
       </div>
 
       <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-        <div class="isotope-img-container"> 
-        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-4.jpg"> 
+        <div class="isotope-img-container">
+        	<a class="gallery-popup" href="<?php echo base_url(); ?>images/projects/dgc-4.jpg">
         		<img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-4.jpg" alt="image"> <span class="gallery-icon"><i class="fa fa-plus"></i></span>
         	</a>
 	      	<div class="project-item-info">
@@ -456,15 +456,15 @@
 	      	</div>
         </div>
       </div>
-      
+
 
     </div>
     <!-- Isotope end -->
-    
+
     <div class="general-btn text-center"> <a class="btn btn-primary" href="<?php echo base_url(); ?>our-projects">View All Projects</a> </div>
   </section>
   <!-- Project area end -->
-  
+
   <section class="content">
     <div class="container">
       <div class="row">
@@ -482,7 +482,7 @@
               </div>
             </div>
             <!--/ Panel 1 end-->
-            
+
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title"> <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapseTwo">Crisil Certified</a> </h4>
@@ -494,7 +494,7 @@
               </div>
             </div>
             <!--/ Panel 2 end-->
-            
+
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title"> <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapseThree"> ISO Certified</a> </h4>
@@ -505,13 +505,13 @@
                 </div>
               </div>
             </div>
-            <!--/ Panel 3 end--> 
-            
+            <!--/ Panel 3 end-->
+
           </div>
-          <!--/ Accordion end --> 
+          <!--/ Accordion end -->
         </div>
         <!-- Col end -->
-        
+
         <div class="col-md-6">
           <h3 class="border-title border-left">Our Associations</h3>
           <div class="row all-clients">
@@ -531,20 +531,20 @@
             <div class="col-sm-6" style="margin-top: 13%;">
               <figure class="clients-logo"> <a><img class="img-responsive" src="<?php echo base_url(); ?>images/clients/ASSOCIATION.png" alt="image" /></a> </figure>
             </div>
-            
+
           </div>
-          <!-- Clients row end --> 
-          
+          <!-- Clients row end -->
+
         </div>
-        <!-- Col end --> 
-        
+        <!-- Col end -->
+
       </div>
-      <!--/ Content row end --> 
+      <!--/ Content row end -->
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
   <!-- Content end -->
-  
+
   <section id="testimonial-area" class="testimonial-area bg-overlay">
     <div class="container">
       <div class="row text-center">
@@ -552,30 +552,30 @@
         <p class="border-sub-title"> </p>
       </div>
       <!--/ Title row end -->
-      
+
       <div class="row">
         <div id="testimonial-slide" class="owl-carousel owl-theme testimonial-slide">
-          <?php foreach($tbl_testimonial as $testimonial_list): ?>
+          <?php foreach ($tbl_testimonial as $testimonial_list): ?>
           <div class="item">
-            <div class="quote-item"> <span class="quote-text" style="height: 180px;"><?php echo $testimonial_list['message'];?></span>
+            <div class="quote-item"> <span class="quote-text" style="height: 180px;"><?php echo $testimonial_list['message']; ?></span>
               <div class="quote-item-footer"> <img class="testimonial-thumb" src="<?php echo base_url(); ?>images/clients/default.png" alt="image">
                 <div class="quote-item-info">
-                  <h3 class="quote-author"><?php echo $testimonial_list['name'];?></h3>
-                  <span class="quote-subtext"><?php echo $testimonial_list['email_id'];?></span> </div>
+                  <h3 class="quote-author"><?php echo $testimonial_list['name']; ?></h3>
+                  <span class="quote-subtext"><?php echo $testimonial_list['email_id']; ?></span> </div>
               </div>
             </div>
-            <!-- Quote item end --> 
+            <!-- Quote item end -->
           </div>
           <?php endforeach; ?>
         </div>
-        <!--/ Testimonial carousel end--> 
+        <!--/ Testimonial carousel end-->
       </div>
-      <!--/ Content row end --> 
+      <!--/ Content row end -->
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
   <!--/ Testimonial end -->
-  
+
   <section class="subscribe no-padding">
     <div class="container">
       <div class="row">
@@ -586,7 +586,7 @@
           </div>
         </div>
         <!-- Col end -->
-        
+
         <div class="col-md-8 col-sm-12 col-xs-12">
           <div class="ts-newsletter">
             <div class="newsletter-introtext">
@@ -602,14 +602,14 @@
               </form>
             </div>
           </div>
-          <!-- Newsletter end --> 
+          <!-- Newsletter end -->
         </div>
-        <!-- Col end --> 
-        
+        <!-- Col end -->
+
       </div>
-      <!-- Content row end --> 
+      <!-- Content row end -->
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
   <!--/ News end -->
 
@@ -622,36 +622,36 @@
         <p class="border-sub-title"> </p>
       </div>
       <!--/ Title row end -->
-      
+
       <div class="row">
-      	<?php foreach($tbl_news_footer as $news_list): ?>
+      	<?php foreach ($tbl_news_footer as $news_list): ?>
         <div class="col-md-3 col-xs-12">
           <div class="latest-post">
-            <div class="latest-post-media"> <a href="<?php echo base_url(); ?>Dholera_News/detail/<?php echo $news_list['id'];?>" class="latest-post-img image-angle"> <img class="img-responsive" src="<?php echo base_url(); ?>documents/news/<?php echo $news_list['image'];?>" alt="image" style="height:400px;"> </a> </div>
+            <div class="latest-post-media"> <a href="<?php echo base_url(); ?>Dholera_News/detail/<?php echo $news_list['id']; ?>" class="latest-post-img image-angle"> <img class="img-responsive" src="<?php echo base_url(); ?>documents/news/<?php echo $news_list['image']; ?>" alt="image" style="height:400px;"> </a> </div>
             <div class="post-body">
-              <h4 class="post-title"> <a href="<?php echo base_url(); ?>Dholera_News/detail/<?php echo $news_list['id'];?>"><?php echo substr($news_list['title'],0,40); ?></a> </h4>
-              <!-- <div class="latest-post-meta"> <span class="post-item-date"> <i class="fa fa-calendar"></i> <?php echo $news_list['add_date'];?> </span> <span class="post-item-author"> <i class="fa fa-user"></i> Admin </span> </div> -->
+              <h4 class="post-title"> <a href="<?php echo base_url(); ?>Dholera_News/detail/<?php echo $news_list['id']; ?>"><?php echo substr($news_list['title'], 0, 40); ?></a> </h4>
+              <!-- <div class="latest-post-meta"> <span class="post-item-date"> <i class="fa fa-calendar"></i> <?php echo $news_list['add_date']; ?> </span> <span class="post-item-author"> <i class="fa fa-user"></i> Admin </span> </div> -->
             </div>
           </div>
-          <!-- Latest post end --> 
+          <!-- Latest post end -->
         </div>
         <?php endforeach; ?>
       </div>
       <!--/ Content row end -->
-      
+
       <div class="general-btn text-center"> <a class="btn btn-primary" href="<?php echo base_url(); ?>dholera-news">See All News</a> </div>
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
   <!--/ News end -->
 
 
-  <?php include('include/footer.php'); ?>
-  
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
   ================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

@@ -1,12 +1,13 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Contact_Us extends CI_Controller {
+class Contact_Us extends CI_Controller
+{
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->library(['email','curl','session']);
+        $this->load->library(['email', 'curl', 'session']);
         $this->load->model('projects_model');
         $this->load->model('news_model');
         $this->load->database();
@@ -15,6 +16,9 @@ class Contact_Us extends CI_Controller {
     /* ================= CONTACT PAGE ================= */
     public function index()
     {
+        // $data['meta_title']             = "";
+        // $data['meta_description']       = "";
+        $data['meta_image']      = base_url('images/og-default.jpg');
         $data['tbl_projects']    = $this->projects_model->get_projects_list();
         $data['tbl_cms']         = $this->projects_model->get_cms_side();
         $data['tbl_news']        = $this->news_model->get_news_list();
@@ -36,7 +40,7 @@ class Contact_Us extends CI_Controller {
         $captcha = json_decode($verify);
 
         if (empty($captcha->success)) {
-            $this->session->set_flashdata('msg','Google reCAPTCHA verification failed.');
+            $this->session->set_flashdata('msg', 'Google reCAPTCHA verification failed.');
             redirect('contact-us');
             return;
         }
@@ -50,16 +54,16 @@ class Contact_Us extends CI_Controller {
 
         /* ---------- BLOCK NAME ---------- */
         if (strcasecmp($name, 'RobertAppex') === 0) {
-            $this->session->set_flashdata('msg','This name is not allowed.');
+            $this->session->set_flashdata('msg', 'This name is not allowed.');
             redirect('contact-us');
             return;
         }
 
         /* ---------- ENGLISH ONLY ---------- */
-        foreach ([$name,$email,$phone,$subject,$comment] as $val) {
-            if (!$this->is_english_only($val)) {
+        foreach ([$name, $email, $phone, $subject, $comment] as $val) {
+            if (! $this->is_english_only($val)) {
                 $this->session->set_flashdata(
-                    'msg','Only English characters are allowed.'
+                    'msg', 'Only English characters are allowed.'
                 );
                 redirect('contact-us');
                 return;
@@ -72,32 +76,32 @@ class Contact_Us extends CI_Controller {
             'email'   => $email,
             'phone'   => $phone,
             'subject' => $subject,
-            'comment' => $comment
+            'comment' => $comment,
         ]);
 
         /* ---------- EMAIL CONFIG ---------- */
         $config = [
-            'protocol'    => 'smtp',
-            'smtp_host'   => 'mail.shyamgroups.co.in',
-            'smtp_port'   => 465,
-            'smtp_crypto' => 'ssl',
-            'smtp_user'   => 'admin@shyamgroups.co.in',
-            'smtp_pass'   => 'admin@12345',
-            'mailtype'    => 'html',
-            'charset'     => 'utf-8',
-            'newline'     => "\r\n",
-            'smtp_timeout'=> 30
+            'protocol'     => 'smtp',
+            'smtp_host'    => 'mail.shyamgroups.co.in',
+            'smtp_port'    => 465,
+            'smtp_crypto'  => 'ssl',
+            'smtp_user'    => 'admin@shyamgroups.co.in',
+            'smtp_pass'    => 'admin@12345',
+            'mailtype'     => 'html',
+            'charset'      => 'utf-8',
+            'newline'      => "\r\n",
+            'smtp_timeout' => 30,
         ];
         $this->email->initialize($config);
 
         /* ---------- ADMIN EMAIL ---------- */
-        $this->email->from('admin@shyamgroups.co.in','Shyam Groups');
+        $this->email->from('admin@shyamgroups.co.in', 'Shyam Groups');
         $this->email->to([
             'info@shyamgroups.co.in',
             'hardik.shyamgroup@gmail.com',
-            'webdeveloper3.intelliworkz@gmail.com'
+            'webdeveloper3.intelliworkz@gmail.com',
         ]);
-        $this->email->subject('New Contact Inquiry: '.$subject);
+        $this->email->subject('New Contact Inquiry: ' . $subject);
         $this->email->message("
             <h3>New Contact Form Submission</h3>
             <p><b>Name:</b> $name</p>
@@ -123,12 +127,14 @@ class Contact_Us extends CI_Controller {
 
         /* ---------- GOOGLE SHEET ---------- */
         $payload = json_encode([
-            'form_type' => 'Contact Form',
-            'name'      => $name,
-            'email'     => $email,
-            'phone'     => $phone,
-            'subject'   => $subject,
-            'comment'   => $comment
+            'form_type'  => 'Contact Form',
+            'name'       => $name,
+            'email'      => $email,
+            'phone'      => $phone,
+            'city'       => $city ?? '', // if you have a city field
+            'subject'    => $subject,
+            'comment'    => $comment,
+            'created_at' => date('Y-m-d H:i:s'),
         ]);
 
         $ch = curl_init(
@@ -144,7 +150,7 @@ class Contact_Us extends CI_Controller {
 
         /* ---------- FINAL REDIRECT ---------- */
         $this->session->set_flashdata(
-            'success','Thank you! Your message has been sent successfully.'
+            'success', 'Thank you! Your message has been sent successfully.'
         );
         redirect('home/thanks');
     }
@@ -152,7 +158,10 @@ class Contact_Us extends CI_Controller {
     /* ================= ENGLISH CHECK ================= */
     private function is_english_only($string)
     {
-        if ($string === '') return true;
+        if ($string === '') {
+            return true;
+        }
+
         return preg_match('/^[a-zA-Z0-9\s.,!?@#()\-+_\/]*$/', $string);
     }
 
@@ -160,7 +169,7 @@ class Contact_Us extends CI_Controller {
     public function letter_mail()
     {
         $email = $this->input->post('email');
-        $this->db->insert('newsletter', ['email'=>$email]);
+        $this->db->insert('newsletter', ['email' => $email]);
         redirect('home/thanks');
     }
 }

@@ -8,31 +8,13 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Best Residential Plots at Dholera, Best Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property, Ahmedabad Property">
-<meta name="description" content="Explore the development journey of Shyam Group, from smart-city land planning at Dholera SIR to residential and infrastructure projects across Gujarat.">
-<title>Discover Our Projects | Shyam Group Gallery</title>
+<?php include 'include/meta.php'; ?>
 
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Site CSS -->
-<?php include('include/css.php'); ?>
+<?php include 'include/css.php'; ?>
 
 <!-- Fancybox CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css" />
@@ -42,12 +24,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
 <div class="body-inner">
 
 
@@ -74,14 +53,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- Fancybox Gallery -->
- 
+
   <section id="project-area" class="project-area">
     <div class="container">
       <div class="row text-center">
          <h1 class="border-title">Gallery</h1>
       </div>
       <!--/ Title row end -->
-      
+
       <div class="row text-center">
         <div class="isotope-nav" data-isotope-nav="isotope">
           <ul class="tabs_gall">
@@ -92,76 +71,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!--<li><a href="#" data-filter=".fort_villa">Fort Villa</a></li>-->
           </ul>
         </div>
-        <!-- Isotope filter end --> 
+        <!-- Isotope filter end -->
       </div>
-      <!-- Filter row end --> 
+      <!-- Filter row end -->
     </div>
     <!--/ Container end -->
     <div class="container">
        <div id="isotope" class="isotope">
 
   <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/sv-1.jpg"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/sv-1.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-1.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/sv-2.jpg"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/sv-2.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-2.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-    <a data-fancybox="gallery" href="<?php echo base_url(); ?>images/projects/sv-3.jpg"> 
+    <a data-fancybox="gallery" href="<?php echo base_url(); ?>images/projects/sv-3.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-3.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 shyamvilla isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/sv-4.jpg"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/sv-4.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/sv-4.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-1.jpg"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-1.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-1.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-2.jpg"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-2.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-2.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery" d href="<?php echo base_url(); ?>images/projects/dgc-3.jpg"> 
+    <a data-fancybox="gallery" d href="<?php echo base_url(); ?>images/projects/dgc-3.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-3.jpg" alt="image">
     </a>
   </div>
 
   <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-4.jpg"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-4.jpg">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-4.jpg" alt="image">
     </a>
   </div>
-  
+
     <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-5.png"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-5.png">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-5.png" alt="image">
     </a>
   </div>
-  
+
     <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-6.png"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-6.png">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-6.png" alt="image">
     </a>
   </div>
-  
+
     <div class="col-md-3 col-sm-6 col-xs-12 dholeraglobalcity isotope-item">
-    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-7.png"> 
+    <a data-fancybox="gallery"  href="<?php echo base_url(); ?>images/projects/dgc-7.png">
       <img class="img-responsive" src="<?php echo base_url(); ?>images/projects/dgc-7.png" alt="image">
     </a>
   </div>
@@ -170,13 +149,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </div>
     <!-- Isotope end -->
-    
-   
-  </section>
-  
 
-  <?php include('include/footer.php'); ?>
-  <?php include('include/js.php'); ?>
+
+  </section>
+
+
+  <?php include 'include/footer.php'; ?>
+  <?php include 'include/js.php'; ?>
 
   <!-- Fancybox JS -->
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>

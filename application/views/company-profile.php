@@ -9,43 +9,22 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Best Residential Plots at Dholera, Best Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property, Ahmedabad Property">
-<meta name="description" content="Established in 2013, Shyam Group is one of the prominent real estate developers that develop residential plots and housing at Dholera SIR, Gujarat.">
-<title>About Shyam Group | Affordable Residential Plots Provider</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/company-profile.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -59,11 +38,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </ol>
             </div>
           </div>
-        </div> 
-      </div> 
+        </div>
+      </div>
     </div> -->
   </div>
-  
+
    <section class="call-to-action">
     <div class="container">
       <div class="coman_routs">
@@ -78,8 +57,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
   <!-- Banner area end -->
-  
- 
+
+
   <section>
       <div class="container">
           <div class="row">
@@ -92,12 +71,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <p>At the heart of this momentum stands Dholera Iconic, Shyam Group's landmark commercial development and Dholera's first RERA-approved commercial complex. Designed for businesses and investors who recognise the value of early positioning, Dholera Iconic offers Offices, Showrooms, and Retail Spaces, each built to meet the demands of a growing smart city ecosystem. Whether you are a corporation seeking a premium office address, a brand looking for high-visibility showroom space, or an investor targeting strong rental yield through retail, Dholera Iconic offers an opportunity that is both timely and strategically sound. Spaces are available starting from ₹40 Lacs*.</p>
                   <p>Shyam Group brings to this development the credibility and experience that investors trust. The group's team carries over 39 years of collective expertise across real estate and financial management. It is ISO Certified, CRISIL Verified, and operates with a 25-member professional team present across Ahmedabad, Mumbai, Delhi, Hyderabad, Kuwait, Dubai, Qatar, and London. Beyond development, Shyam Group is also the only developer at Dholera SIR offering dedicated Resale Assistance a service that helps investors liquidate their inventory through a structured, pan-India sales network.</p>
                   <p>At Shyam Group, customers are not just buyers. They are growth partners. Every project, every process, and every commitment is built around ensuring that investor confidence is earned and sustained over the long term.</p>
- 
+
               </div>
           </div>
       </div>
   </section>
-  
+
   <section style="padding-top: 0px;">
       <div class="container">
           <div class="row text-center">
@@ -114,10 +93,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <img class="img-fluid" src="<?php echo base_url(); ?>images/new_images/client_7.png" alt="company profile" class="img-fluid"/>
               </div>
          </div>
-          
+
       </div>
   </section>
-  
+
   <section style="padding-top: 0px;">
       <div class="container">
           <h2 class="border-title text-center mb-5">Why to Invest with Shyam Group</h2>
@@ -155,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
       </div>
   </section>
-  
+
   <section style="padding-top: 0px;">
        <div class="container">
            <video class="company_profile_video" autoplay muted loop width="100%" poster="<?php echo base_url(); ?>images/company_profile_poster.png">
@@ -163,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </video>
        </div>
   </section>
-  
+
   <section class="Work_Us" style="padding-top: 0px;">
       <div class="container">
           <div class="row text-center">
@@ -171,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          </div>
           <div class="Wor_card">
               <div class="col-md-6">
-                 <div class="action-box vision_box"> 
+                 <div class="action-box vision_box">
                  <span class="action-box-icon"> <i class="fa fa-users"></i> </span>
             <div>
               <h3>Vision</h3>
@@ -179,21 +158,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
               </div>
-              
+
               <div class="col-md-6">
                  <div class="action-box vision_box"> <span class="action-box-icon"> <i class="fa fa-shield"></i> </span>
             <div>
               <h3>Mission</h3>
               <p class="action-box-text">To safely deliver any project, on timely basis keeping in mind the safety of our environment and at the same time provide benefits to our customers, shareholders, employees and the communities we serve.</p>
-             
+
             </div>
           </div>
               </div>
-              
+
           </div>
       </div>
   </section>
-  
+
   <section id="news" class="news" style="padding-top: 0px;">
     <div class="container">
       <div class="row text-center">
@@ -201,7 +180,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!--<p class="border-sub-title"> </p>-->
       </div>
       <!--/ Title row end -->
-      
+
       <div class="row">
       	 <div class="col-md-4 col-xs-12">
           <div class="latest-post">
@@ -210,7 +189,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <h4 class="post-title"> <a>ISO Certificate</a> </h4>
             </div>
           </div>
-          <!-- Latest post end --> 
+          <!-- Latest post end -->
         </div>
         <div class="col-md-4 col-xs-12">
           <div class="latest-post">
@@ -219,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <h4 class="post-title"> <a>Investment Intension Certificate</a> </h4>
             </div>
           </div>
-          <!-- Latest post end --> 
+          <!-- Latest post end -->
         </div>
         <div class="col-md-4 col-xs-12">
           <div class="latest-post">
@@ -228,22 +207,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <h4 class="post-title"> <a>Crisil Certificate</a> </h4>
             </div>
           </div>
-          <!-- Latest post end --> 
+          <!-- Latest post end -->
         </div>
         </div>
       <!--/ Content row end -->
     </div>
-    <!--/ Container end --> 
+    <!--/ Container end -->
   </section>
-  
+
   <!-- Main container end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>

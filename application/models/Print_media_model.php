@@ -1,9 +1,13 @@
-<?php 
-    if(!defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+if (! defined('BASEPATH')) {
+    exit('No direct script access allowed');
+}
 
-    class Print_media_model extends CI_Model {
+class Print_media_model extends CI_Model
+{
 
-        public function get_all_images() {
-            return $this->db->order_by('id', 'DESC')->get('print_media')->result();
-        }
+    public function get_all_images()
+    {
+        return $this->db->order_by('id', 'ASC')->get('print_media')->result();
     }
+}

@@ -9,45 +9,24 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Best Residential Plots, Residential Plots at Dholera, Residential Plots Dholera, Residential Plots, Residential Plots in India, Residential Plots in Gujarat, Dholera Property Investment">
-<meta name="description" content="Feel free to contact us about any of your Dholera SIR Property Investment-related queries. Call us at (+91) 85113 32200 or mail us at: info@shyamgroups.co.in.">
-<title>Contact Shyam Group | Real Estate Developers</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/contact-us.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -66,8 +45,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> -->
   </div>
   <!-- Banner area end -->
- 
-  
+
+
   <section class="call-to-action">
     <div class="container">
       <div class="coman_routs">
@@ -83,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </section>
-  
+
   <section id="main-container" class="main-container">
     <div class="container">
        <div>
@@ -101,14 +80,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
              <div class="col-md-5">
                 <div class="reach_card">
                     <span class="ts-service-icon"><i class="fa fa-envelope"></i></span>
-                    
+
                     <div>
                         <h2>Mail Us</h2>
                         <p><a href="mailto:info@shyamgroups.co.in">info@shyamgroups.co.in</a></p>
                     </div>
                 </div>
             </div>
-            
+
         </div>
        </div>
       <div class="row">
@@ -117,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="widget contact-info">
               <!--<h3 class="widget-title">Contact Us</h3>-->
               <h3 class="border-title border-left">Address</h3>
-              <div class="contact-info-box"> 
+              <div class="contact-info-box">
                 <div class="contact-info-box-content mb-5">
                   <h4>Ahmedabad Office :-</h4>
                    <div class="contact-info-box-content_icon">
@@ -131,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <!--        <i class="fa fa-map-marker">&nbsp;</i>-->
                 <!--        <p>605 Suchita Business Park, Pant Nagar, Opp. Raigad Chowk, Ghatkopar East. Mumbai - 400077.</p>-->
                 <!--    </div>-->
-                  
+
                 <!--</div>-->
                 <!-- <div class="contact-info-box-content mb-5">-->
                 <!--  <h4>Bengaluru Associate Office :-</h4>-->
@@ -139,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <!--        <i class="fa fa-map-marker">&nbsp;</i>-->
                 <!--        <p>No. 19, 1st Main, 1st A Cross, Suvarna Jyothi Layout, Nagadevanahalli, Bangalore, 560056</p>-->
                 <!--    </div>-->
-                  
+
                 <!--</div>-->
               </div>
 <!--              <div class="contact-info-box"> -->
@@ -160,12 +139,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--                </div>-->
 <!--              </div>-->
             </div>
-            <!-- Widget end --> 
+            <!-- Widget end -->
           </div>
-          <!-- Sidebar left end --> 
+          <!-- Sidebar left end -->
         </div>
         <!-- Sidebar col end -->
-        
+
         <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
           <h3 class="border-title border-left">Contact Form</h3>
           <span style="color:#FF0000"><?php //echo $this->session->flashdata('msg'); ?></span>
@@ -214,55 +193,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </form>
         </div>
       </div>
-      <!-- Content row --> 
+      <!-- Content row -->
     </div>
-    <!-- Conatiner end --> 
+    <!-- Conatiner end -->
   </section>
   <!-- Main container end -->
-  
+
   <section id="map-wrapper" class="main-container" style="padding: 30px 0;">
     <div class="container">
       <div class="row">
         <!--<iframe src="https://www.google.com/maps/d/embed?mid=z-SionDowY24.ky6kDDmz78Fg" width="100%" height="500"></iframe>-->
-        
+
        <iframe src="https://www.google.com/maps/d/embed?mid=1AeIz8ypGSarzlJUbhzKnQlmfRhfLcxk&ehbc=2E312F&noprof=1" width="100%" height="500"></iframe>
       </div>
     </div>
   </section>
   <!-- Map end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
-	================================================== --> 
-  
-  <!-- initialize jQuery Library --> 
+	================================================== -->
+
+  <!-- initialize jQuery Library -->
   <!--<script type="text/javascript" src="<?php // echo base_url(); ?>js/jquery.js"></script> -->
-  <!-- Bootstrap jQuery --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script> 
-  <!-- Owl Carousel --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/owl.carousel.min.js"></script> 
-  <!-- Counter --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.counterup.min.js"></script> 
-  <!-- Waypoints --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/waypoints.min.js"></script> 
-  <!-- Color box --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.colorbox.js"></script> 
-  <!-- Smoothscroll --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/smoothscroll.js"></script> 
-  <!-- Isotope --> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/isotope.js"></script> 
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/ini.isotope.js"></script> 
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM&amp;sensor=false"></script> 
-  <!-- Doc https://developers.google.com/maps/documentation/javascript/get-api-key --> 
-  <!-- For latitude and longitude use http://www.latlong.net/ --> 
-  
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/custom.js"></script> 
+  <!-- Bootstrap jQuery -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
+  <!-- Owl Carousel -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/owl.carousel.min.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.counterup.min.js"></script>
+  <!-- Waypoints -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/waypoints.min.js"></script>
+  <!-- Color box -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.colorbox.js"></script>
+  <!-- Smoothscroll -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/smoothscroll.js"></script>
+  <!-- Isotope -->
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/isotope.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/ini.isotope.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM&amp;sensor=false"></script>
+  <!-- Doc https://developers.google.com/maps/documentation/javascript/get-api-key -->
+  <!-- For latitude and longitude use http://www.latlong.net/ -->
+
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/custom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/additional-methods.min.js" integrity="sha512-owaCKNpctt4R4oShUTTraMPFKQWG9UdWTtG6GRzBjFV4VypcFi6+M3yc4Jk85s3ioQmkYWJbUl1b2b2r41RTjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="text/javascript" src="<?php echo base_url(); ?>js/custom_validations.js"></script>
-  
-  <script type="text/javascript" src="<?php echo base_url(); ?>js/gmap3.js"></script> 
+
+  <script type="text/javascript" src="<?php echo base_url(); ?>js/gmap3.js"></script>
   <script type="text/javascript">
 
 // 		$(function () {
@@ -369,21 +348,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             submitHandler: function(form) {
                 if (!contactFormSubmitted) {
                     contactFormSubmitted = true;
-    
+
                     // Disable submit button and change text
                     const btn = $(form).find('input[type="submit"]');
                     if (btn.length) {
                         btn.prop('disabled', true);
                         btn.val('Submitting...');
                     }
-    
+
                     form.submit(); // submit form normally
                 }
             }
         });
-    
+
     });
-    
+
   </script>
 </div>
 <!-- Body inner end -->

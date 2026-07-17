@@ -9,43 +9,22 @@
 <meta http-equiv="Content-Language" content="EN" />
 <meta name="author" content="Shyam Group" />
 <meta name="distribution" content="Global" />
-<meta name="development" content="Intelliworkz.com"/>
-<meta name="keywords" content="Residential plot development, residential housing schemes, Residential Plots in Dholera">
-<meta name="description" content="Check our projects' legal documents at Shyam Group, like 7/12 Copies, 8A, Hak Patrak, Property title clear Certificate, NA Hukam details. ">
-<title>Legal Documents about All Projects at Shyam Group</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112329903-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php include 'include/meta.php'; ?>
 
-  gtag('config', 'UA-112329903-1');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9NJ9JS3');</script>
-<!-- End Google Tag Manager -->
 <!-- Mobile Specific Metas
 	================================================== -->
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<?php include('include/css.php'); ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include 'include/css.php'; ?>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9NJ9JS3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="body-inner">
-  <?php include('include/top-nav.php'); ?>
-  <?php include('include/header.php'); ?>
+  <?php include 'include/top-nav.php'; ?>
+  <?php include 'include/header.php'; ?>
   <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/legel-documents.png)">
     <!-- <div class="banner-text">
       <div class="container">
@@ -64,7 +43,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> -->
   </div>
   <!-- Banner area end -->
-  
+
    <section class="call-to-action">
     <div class="container">
       <div class="coman_routs">
@@ -73,20 +52,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div><p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> Legal Document</p> </div>
         <div class="col-md-2 col-xs-12">
-          <div class="call-to-action-btn-angle"> 
+          <div class="call-to-action-btn-angle">
           <!--<a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-phone"></i>Contact Us</a> -->
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <section id="main-container" class="main-container">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
 
-          
+
           <div class="Legal_pdf_main">
               <div class="row text-center mb-5">
                  <h2 class="border-title">Legal Documents</h2>
@@ -109,9 +88,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </div>
               </div>
           </div>
-          
-          
-          <!--<?php foreach($tbl_projects_final as $projects_final_list):?>-->
+
+
+          <!--<?php foreach ($tbl_projects_final as $projects_final_list): ?>-->
           <!--<table align="center" cellpadding="0" cellspacing="0" style="text-align:center;border:1px solid #737988;width: 100%;">-->
           <!--  <thead style="border: 1px solid #737988; background: #f67d36; color: #fff;">-->
           <!--    <tr>-->
@@ -120,36 +99,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!--    </tr>-->
           <!--  </thead>-->
           <!--  <br>-->
-          <!--  <?php foreach($tbl_projects_documents_final[$projects_final_list['id']] as $projects_documents_final_list): ?>-->
+          <!--  <?php foreach ($tbl_projects_documents_final[$projects_final_list['id']] as $projects_documents_final_list): ?>-->
           <!--  <tbody style="border: 1px solid #737988;">-->
           <!--    <tr>-->
-          <!--      <td height="35" colspan="2" align="center" valign="middle"><strong><?php echo $projects_documents_final_list['documents_name'];?></strong></td>-->
-          <!--      <td height="35" colspan="2"><?php if($projects_documents_final_list['documents_name']== "") { ?>-->
+          <!--      <td height="35" colspan="2" align="center" valign="middle"><strong><?php echo $projects_documents_final_list['documents_name']; ?></strong></td>-->
+          <!--      <td height="35" colspan="2"><?php if ($projects_documents_final_list['documents_name'] == "") {?>-->
           <!--        <a href="#"><img src="<?php echo base_url(); ?>documents/pdf.png" alt="image"></a>-->
-          <!--        <?php } else { ?>-->
+          <!--        <?php } else {?>-->
           <!--        <a target="_new" href="<?php echo base_url(); ?>documents/<?php echo $projects_documents_final_list['file']; ?>">-->
           <!--        <center>-->
           <!--        <img src="<?php echo base_url(); ?>documents/pdf.png" alt="image"></a>-->
-          <!--        <?php } ?></td>-->
+          <!--        <?php }?></td>-->
           <!--    </tr>-->
           <!--  </tbody>-->
           <!--  <?php endforeach; ?>-->
           <!--</table>-->
           <!--<?php endforeach; ?>-->
         </div>
-      
+
       </div>
     </div>
-    <!-- Container end --> 
+    <!-- Container end -->
   </section>
   <!-- Main container end -->
-  
-  <?php include('include/footer.php'); ?>
-  
+
+  <?php include 'include/footer.php'; ?>
+
   <!-- Javascript Files
 	================================================== -->
-  
-  <?php include('include/js.php'); ?>
+
+  <?php include 'include/js.php'; ?>
 </div>
 <!-- Body inner end -->
 </body>
