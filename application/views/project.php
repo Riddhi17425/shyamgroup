@@ -465,6 +465,11 @@
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog vertical-align-center" role="document">
     <div class="modal-content">
+      <div class="modal-header" style="border-bottom: none; padding: 10px 15px 0;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 30px; opacity: 1;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <div class="modal-body">
         <?php if ($project_detail['video_url'] != '') {?>
     <div class="embed-responsive">
@@ -486,6 +491,26 @@
     </div>
   </div>
 </div>
+
+<script>
+$(document).ready(function(){
+    $('#exampleModalCenter').on('hidden.bs.modal', function (e) {
+        // Stop iframe (YouTube/Vimeo) video by resetting its src
+        var $iframe = $(this).find('iframe');
+        if ($iframe.length > 0) {
+            var src = $iframe.attr('src');
+            $iframe.attr('src', '');
+            $iframe.attr('src', src);
+        }
+        
+        // Stop HTML5 video tag
+        var $video = $(this).find('video');
+        if ($video.length > 0) {
+            $video[0].pause();
+        }
+    });
+});
+</script>
 
 
 

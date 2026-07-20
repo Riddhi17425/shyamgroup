@@ -35,8 +35,7 @@ $config['base_url'] = 'http://localhost/shyamgroup/';
 | something else. If you are using mod_rewrite to remove the page set this
 | variable so that it is blank.
 |
-*/
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
