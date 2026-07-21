@@ -106,11 +106,6 @@
                              <li><i class="fa fa-envelope-o">&nbsp;</i>
                                  <a class="info-text" href="mailto:info@shyamgroups.co.in">info@shyamgroups.co.in</a>
                              </li>
-                             <li class="header-whatsapp-link">
-                                <a class="info-text" href="https://wa.me/918511332200?text=Hi%2C%20I%27m%20interested%20in%20Shyam%20Group%20properties" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-whatsapp">&nbsp;</i> Chat on WhatsApp
-                                </a>
-                            </li>
                          </ul>
                      </div>
                      <!--/ Top info end -->

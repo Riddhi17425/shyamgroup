@@ -18,4 +18,5 @@ class Print_Media extends CI_Controller
 
         $this->load->view('print_media', $data);
     }
+
 }

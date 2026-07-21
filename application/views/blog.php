@@ -1,145 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-<!-- Basic Page Needs
-	================================================== -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta http-equiv="Content-Language" content="EN" />
-<meta name="author" content="Shyam Group" />
-<meta name="distribution" content="Global" />
-<?php include 'include/meta.php'; ?>
+    <head>
 
-<!-- Mobile Specific Metas
-	================================================== -->
+        <!-- Basic Page Needs
+ ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Language" content="EN" />
+        <meta name="author" content="Shyam Group" />
+        <meta name="distribution" content="Global" />
+        <?php include 'include/meta.php'; ?>
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php include 'include/css.php'; ?>
+        <!-- Mobile Specific Metas
+ ================================================== -->
 
-<style>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <?php include 'include/css.php'; ?>
 
+        <style>
+            .blog_head {
+                display: flex;
+                gap: 20px
+            }
 
+            /* Blog Card */
+            .blog_card {
+                background: #fff;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+                transition: all 0.4s ease;
+                border: 1px solid #eee;
+                opacity: 0;
+                animation: fadeInUp 0.8s ease forwards;
+            }
 
-        .blog_head
-        {
-            display:flex;
-            gap:20px
-        }
+            .blog_card:hover {
+                transform: translateY(-12px);
+                box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+            }
 
+            .blog_card img {
+                height: 240px;
+                object-fit: cover;
+                transition: transform 0.6s ease;
+            }
 
+            .blog_card:hover img {
+                transform: scale(1.08);
+            }
 
-        /* Blog Card */
-        .blog_card {
-            background: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            transition: all 0.4s ease;
-            border: 1px solid #eee;
-            opacity: 0;
-            animation: fadeInUp 0.8s ease forwards;
-        }
+            .blog_card .card-body {
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+            }
 
-        .blog_card:hover {
-            transform: translateY(-12px);
-            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
-        }
+            .blog_date {
+                font-size: 14px;
+                color: #999;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
 
-        .blog_card img {
-            height: 240px;
-            object-fit: cover;
-            transition: transform 0.6s ease;
-        }
+            .blog_title {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1.4;
+                color: #222;
+                margin-bottom: 12px;
+                flex-grow: 1;
+            }
 
-        .blog_card:hover img {
-            transform: scale(1.08);
-        }
+            .blog_title a {
+                color: inherit;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
 
-        .blog_card .card-body {
-            padding: 24px;
-            display: flex;
-            flex-direction: column;
-        }
+            .blog_title a:hover {
+                color: #ed7427;
+            }
 
-        .blog_date {
-            font-size: 14px;
-            color: #999;
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
+            .blog_desc {
+                font-size: 15px;
+                line-height: 1.7;
+                color: #555;
+                margin-bottom: 0;
+            }
 
-        .blog_title {
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 1.4;
-            color: #222;
-            margin-bottom: 12px;
-            flex-grow: 1;
-        }
+            .limit-to-4-lines {
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
 
-        .blog_title a {
-            color: inherit;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
+            /* Arrow */
+            .blog_card .svg_arrow {
+                width: 44px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #fdf4f4;
+                border-radius: 50%;
+                transition: all 0.4s ease;
+                opacity: 0.8;
+                flex-shrink: 0;
+            }
 
-        .blog_title a:hover {
-            color: #ed7427;
-        }
+            .blog_card .svg_arrow:hover {
+                background: #ed7427;
+                transform: translateX(6px);
+            }
 
-        .blog_desc {
-            font-size: 15px;
-            line-height: 1.7;
-            color: #555;
-            margin-bottom: 0;
-        }
+            .blog_card .svg_arrow:hover svg path {
+                stroke: #fff;
+            }
+        </style>
+        </style>
 
-        .limit-to-4-lines {
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+    </head>
 
-        /* Arrow */
-       .blog_card .svg_arrow {
-            width: 44px;
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #fdf4f4;
-            border-radius: 50%;
-            transition: all 0.4s ease;
-            opacity: 0.8;
-            flex-shrink: 0;
-        }
+    <body>
 
-       .blog_card .svg_arrow:hover {
-            background: #ed7427;
-            transform: translateX(6px);
-        }
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT69FTP" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
-        .blog_card .svg_arrow:hover svg path {
-            stroke: #fff;
-        }
-
-
-    </style>
-</style>
-
-</head>
-
-<body>
-
-<div class="body-inner">
-  <?php include 'include/top-nav.php'; ?>
-  <?php include 'include/header.php'; ?>
-  <div id="banner-area" class="banner-area" style="background-image:url(<?php echo base_url(); ?>images/banner/dholera-news.png)">
-    <!-- <div class="banner-text">
+        <div class="body-inner">
+            <?php include 'include/top-nav.php'; ?>
+            <?php include 'include/header.php'; ?>
+            <div id="banner-area" class="banner-area"
+                style="background-image:url(<?php echo base_url(); ?>images/banner/dholera-news.png)">
+                <!-- <div class="banner-text">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -154,34 +153,36 @@
         </div>
       </div>
     </div> -->
-  </div>
-  <!-- Banner area end -->
-
-  <section class="call-to-action">
-    <div class="container">
-      <div class="coman_routs">
-        <div class="col-md-2 col-xs-12">
-            <h3 class="call-to-action-title">Blogs</h3>
-        </div>
-        <div><p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> Dholera Blogs</p> </div>
-        <div class="col-md-2 col-xs-12">
-          <div class="call-to-action-btn-angle">
             </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <!-- Banner area end -->
 
-<section>
-        <div class="container">
-           <div class="row text-center">
-      <h1 class="border-title">Dholera Blogs</h1>
-    </div>
+            <section class="call-to-action">
+                <div class="container">
+                    <div class="coman_routs">
+                        <div class="col-md-2 col-xs-12">
+                            <h3 class="call-to-action-title">Blogs</h3>
+                        </div>
+                        <div>
+                            <p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> Dholera Blogs</p>
+                        </div>
+                        <div class="col-md-2 col-xs-12">
+                            <div class="call-to-action-btn-angle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-             <div class="row g-4 g-md-5">
+            <section>
+                <div class="container">
+                    <div class="row text-center">
+                        <h1 class="border-title">Dholera Blogs</h1>
+                    </div>
 
-                <?php if (! empty($tbl_blog)): ?>
-                    <?php foreach ($tbl_blog as $blog): ?>
+                    <div class="row g-4 g-md-5">
+
+                        <?php if (! empty($tbl_blog)): ?>
+                        <?php foreach ($tbl_blog as $blog): ?>
 
                         <div class="col-md-6 col-lg-4 mb-4">
                             <div class="blog_card h-100 d-flex flex-column">
@@ -189,14 +190,13 @@
                                 <!-- BLOG IMAGE -->
                                 <a href="<?php echo base_url(); ?>blog/<?php echo $blog['url']; ?>" class="d-block">
                                     <img src="<?php echo base_url(); ?>images/blogimages/<?php echo $blog['front_image']; ?>"
-                                         class="img-fluid"
-                                         alt="<?php echo $blog['title']; ?>">
+                                        class="img-fluid" alt="<?php echo $blog['title']; ?>">
                                 </a>
 
                                 <div class="card-body">
 
                                     <p class="blog_date">
-                                        <?php echo date("Y-m-d", strtotime($blog['blog_date'])); ?>
+                                        <?php echo date('Y-m-d', strtotime($blog['blog_date'])); ?>
                                     </p>
 
                                     <div class="blog_head mb-3">
@@ -210,12 +210,10 @@
 
                                         <!-- ARROW ICON -->
                                         <a href="<?php echo base_url(); ?>blog/<?php echo $blog['url']; ?>" class="svg_arrow ms-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none">
-                                                <path d="M7.6 17L17.6 7M17.6 7H7.6M17.6 7V17"
-                                                      stroke="#ed7427"
-                                                      stroke-width="2"
-                                                      stroke-linecap="round"
-                                                      stroke-linejoin="round"/>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24"
+                                                fill="none">
+                                                <path d="M7.6 17L17.6 7M17.6 7H7.6M17.6 7V17" stroke="#ed7427"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
                                         </a>
 
@@ -230,21 +228,21 @@
                             </div>
                         </div>
 
-                    <?php endforeach; ?>
-                <?php endif; ?>
+                        <?php endforeach; ?>
+                        <?php endif; ?>
 
-            </div>
+                    </div>
+                </div>
+            </section>
+
+            <?php include 'include/footer.php'; ?>
+
+            <!-- Javascript Files
+ ================================================== -->
+
+            <?php include 'include/js.php'; ?>
         </div>
-    </section>
+        <!-- Body inner end -->
+    </body>
 
-
-  <?php include 'include/footer.php'; ?>
-
-  <!-- Javascript Files
-	================================================== -->
-
-  <?php include 'include/js.php'; ?>
-</div>
-<!-- Body inner end -->
-</body>
 </html>

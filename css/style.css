@@ -4729,7 +4729,7 @@ a.ft_btn {
   color: #fff;
 }
 
-.print-media-masonry {
+/* .print-media-masonry {
   column-count: 3;
   column-gap: 20px;
 }
@@ -4739,4 +4739,16 @@ a.ft_btn {
   margin-bottom: 20px;
   display: inline-block;
   width: 100%;
+} */
+
+.print-media-masonry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 10px; /* small unit = finer packing */
+  gap: 20px;
+}
+
+.print-media-masonry .gallery-item {
+  overflow: visible;
+  align-self: start; /* prevents stretching to the grid track — content always renders full height */
 }
