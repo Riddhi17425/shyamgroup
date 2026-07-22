@@ -218,7 +218,7 @@
           <ul class="list-arrow">
             <li><a href="<?php echo base_url(); ?>">Home</a></li>
             <li><a href="<?php echo base_url(); ?>company-profile">About</a></li>
-             <li><a href="<?php echo base_url(); ?>bloglist">Blogs</a></li>
+             <li><a href="<?php echo base_url(); ?>blogs">Blogs</a></li>
             <li><a href="<?php echo base_url(); ?>testimonials">Testimonial</a></li>
             <li><a href="<?php echo base_url('awards'); ?>">Awards</a></li>
             <!--<li><a href="<?php echo base_url(); ?>dholera-news">Events and Exhibitions</a></li>-->

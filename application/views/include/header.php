@@ -87,6 +87,14 @@
          color: #999;
          cursor: default;
      }
+     .dropdown-mega > .projects-link {
+            display: inline-block;
+        }
+        .dropdown-mega > .dropdown-toggle {
+            display: inline-block;
+            padding: 15px 8px;   /* match your existing nav link padding */
+            cursor: pointer;
+        }
  </style>
 
  <!-- Header start -->
@@ -172,7 +180,7 @@
                                  Sir <i class="fa fa-angle-down"></i> </a>
                              <ul class="dropdown-menu" role="menu">
                                  <li><a href="<?php echo base_url(); ?>blogs">Blogs</a></li>
-                                 <li><a href="<?php echo base_url(); ?>dholera-news">Dholera News</a></li>
+                                 <!-- <li><a href="<?php echo base_url(); ?>dholera-news">Dholera News</a></li> -->
                                  <li><a href="<?php echo base_url(); ?>print-media">Print Media</a></li>
                                  <li><a href="<?php echo base_url(); ?>dholera-videos">Dholera Videos</a></li>
                                  <!--<li><a href="<?php echo base_url(); ?>pressrelease">Media News</a></li>-->
@@ -189,9 +197,11 @@
                          <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <i class="fa fa-angle-down"></i> </a>-->
 
                          <li class="dropdown dropdown-mega hidden-xs hidden-sm">
-                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <i
-                                     class="fa fa-angle-down"></i> </a>
-                             <ul class="dropdown-menu dropdown-menu-mega">
+                            <a href="<?php echo base_url('our-projects'); ?>" class="projects-link">Projects</a>
+                            <span class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-angle-down"></i>
+                            </span>
+                            <ul class="dropdown-menu dropdown-menu-mega">
                                  <div class="container">
                                      <div class="row">
                                          <div class="col-sm-4">
