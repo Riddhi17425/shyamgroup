@@ -87,8 +87,8 @@
                     </div>
 
                     <div class="pro_det_banner">
-                        <img width="100%" src="<?php echo base_url(); ?>images/blogimages/<?php echo $blog_detail['conclusion_image']; ?>"
-                            alt="<?php echo $blog_detail['title']; ?>">
+                        <a href="https://www.shyamgroups.co.in/contact-us"> <img width="100%" src="<?php echo base_url(); ?>images/blogimages/<?php echo $blog_detail['conclusion_image']; ?>"
+                            alt="<?php echo $blog_detail['title']; ?>"></a>
                     </div>
                     <div class="pro_det_con">
                         <h3>Conclusion</h3>
