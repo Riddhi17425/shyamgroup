@@ -77,15 +77,38 @@
                         <!--Col end -->
 
                         <div class="col-sm-6">
-                            <h1 class="cmpy_title">Shyam Group</h1>
-                            <p>Established in 2013, Shyam Group is one of the prominent real estate developers at
-                                Dholera SIR Gujarat. Apart from the real estate business the group operates across
-                                multiple sectors including Technology, Pharmaceutical and Sports.</p>
-                            <p>Shyam Group has 3 residential plotting projects at Dholera SIR and all the projects are
-                                located at strategic location which are in the vicinity of Special Investment Region.
-                                Amenities like Metro Rail, Trade Center, 6 Lane Expressway and other Government offices
-                                are very much nearby to our projects.</p>
+                            <h1>Shyam Group — Trusted Real Estate Developer in Dholera SIR</h1>
+                            <p>Established in 2013, Shyam Group is one of the best developers in Dholera, with a track record spanning real estate, technology, pharmaceuticals, and sports. We currently manage 3+ residential projects in Dholera SIR, each located within the Special Investment Region's activation zone which is close to the upcoming Metro Rail, Trade Centre, and the 6-lane Expressway.</p>
+                            <p>As a real estate developer in Dholera, our focus has always been simple: help everyday investors access Dholera SIR property with complete transparency, legal clarity, and long-term appreciation potential.</p>
 
+                        </div>
+                        <div class="col-sm-12 why-choose-shyam">
+                           <h2 class="border-title">Why Choose Shyam Group for Land Investment in Dholera SIR</h2>
+                            <p>Land investment in Dholera is widely regarded as one of India's strongest long-term real estate opportunities, backed by Dholera SIR's status as the country's first planned Greenfield smart city under the Delhi-Mumbai Industrial Corridor (DMIC). With the international airport, Tata semiconductor plant, and 6-lane expressway all under active development, Dholera land investment today captures ground-floor pricing before infrastructure completion drives values up.</p>
+                            <p>Shyam Group structures every residential plot in Dholera as a documented, RERA-compliant investment with resale assistance most developers don't offer.</p>
+
+                            <div class="row why-choose-icons">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="why-choose-box">
+                                    <span class="why-choose-icon"><i class="fa fa-building"></i></span>
+                                    <h3>Government-Backed Infrastructure Driving Dholera SIR Property Value</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="why-choose-box">
+                                    <span class="why-choose-icon"><i class="fa fa-line-chart"></i></span>
+                                    <h3>Why Early-Stage Land Investment in Dholera Outperforms Later Entry</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="why-choose-box">
+                                    <span class="why-choose-icon"><i class="fa fa-shield"></i></span>
+                                    <h3>RERA-Registered, Resale-Assisted — How Shyam Group Protects Your Investment</h3>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="featured-tab">
@@ -190,7 +213,7 @@
             <section style="padding-top: 0px;">
                 <div class="container">
                     <div class="row mb-4 text-center">
-                        <h2 class="border-title">Advantage Dholera</h2>
+                        <h2 class="border-title">Advantage Dholera SIR — Infrastructure Driving Property Value</h2>
                     </div>
 
                     <div class="advantage_main">
@@ -335,6 +358,9 @@
 
             <section id="facts" class="facts-area bg-overlay no-padding">
                 <div class="container">
+                    <div class="row mb-4 text-center">
+                        <h2 class="border-title">Stats Bar</h2>
+                    </div>
                     <div class="row">
                         <div class="facts-wrapper">
                             <div class="col-sm-3 ts-facts">
@@ -621,8 +647,7 @@
                 </div>
                 <!-- Isotope end -->
 
-                <div class="text-center"> <a class="btn btn-primary" href="<?php echo base_url(); ?>our-projects">View All
-                        Projects</a> </div>
+                <div class="text-center"> <a class="btn btn-primary" href="<?php echo base_url(); ?>our-projects">View All Residential Projects in Dholera</a> </div>
             </section>
             <!-- Project area end -->
 
@@ -678,7 +703,7 @@
             <section>
                 <div class="container">
                     <div class="row text-center">
-                        <h2 class="border-title">What our client says</h2>
+                        <h2 class="border-title">Hear from investors who chose Shyam Group for land investment in Dholera</h2>
                         <!--<p class="border-sub-title"> </p>-->
                     </div>
                     <!--/ Title row end -->
@@ -734,11 +759,35 @@
 
                     </div>
 
-                    <div class="text-center"> <a class="btn btn-primary" href="<?php echo base_url(); ?>print_media">View
+                    <div class="text-center"> <a class="btn btn-primary" href="<?php echo base_url(); ?>print-media">View
                             All News</a> </div>
                 </div>
             </section>
             <!--/ Testimonial end -->
+
+            <section id="home-faq" class="ts-faq-area" style="padding-top: 0px;">
+            <div class="container">
+                <div class="row mb-4 text-center">
+                    <h2 class="border-title">Frequently Asked Questions — Real Estate Developers in Dholera</h2>
+                </div>
+
+                <?php if (isset($tbl_faqs) && count($tbl_faqs) > 0): ?>
+                <div class="home-faq-accordion">
+                   <?php foreach ($tbl_faqs as $index => $faq): ?>
+                <div class="home-faq-item<?php echo($index == 0) ? ' active' : ''; ?>">
+                    <div class="home-faq-question" data-target="#faq_answer_<?php echo $index; ?>">
+                        <h3><?php echo $faq['question']; ?></h3>
+                        <span class="home-faq-icon"><i class="fa fa-chevron-down"></i></span>
+                    </div>
+                    <div class="home-faq-answer" id="faq_answer_<?php echo $index; ?>">
+                        <p><?php echo $faq['answer']; ?></p>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+                </div>
+                <?php endif; ?>
+            </div>
+        </section>
 
             <!-- Fancybox JS -->
             <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
@@ -748,9 +797,106 @@
             <!-- Javascript Files
   ================================================== -->
 
+                <script>
+                $(document).ready(function(){
+
+                    function openFaq($item) {
+                        var $answer = $item.find('.home-faq-answer');
+                        $item.addClass('active');
+                        $answer.css('max-height', $answer[0].scrollHeight + 'px');
+                    }
+
+                    function closeFaq($item) {
+                        var $answer = $item.find('.home-faq-answer');
+                        $answer.css('max-height', $answer[0].scrollHeight + 'px'); // lock current height first
+                        requestAnimationFrame(function(){
+                            $answer.css('max-height', '0px');
+                        });
+                        $item.removeClass('active');
+                    }
+
+                    // open first FAQ on load with correct height
+                    var $first = $('.home-faq-item.active');
+                    if ($first.length) {
+                        openFaq($first);
+                    }
+
+                    $('.home-faq-question').on('click', function(){
+                        var $item = $(this).closest('.home-faq-item');
+                        var isActive = $item.hasClass('active');
+
+                        $('.home-faq-item.active').each(function(){
+                            closeFaq($(this));
+                        });
+
+                        if (!isActive) {
+                            openFaq($item);
+                        }
+                    });
+
+                    // keep open FAQ's height correct if window resizes (text reflows)
+                    $(window).on('resize', function(){
+                        $('.home-faq-item.active').each(function(){
+                            var $answer = $(this).find('.home-faq-answer');
+                            $answer.css('max-height', $answer[0].scrollHeight + 'px');
+                        });
+                    });
+
+                });
+                </script>
+
             <?php include 'include/js.php'; ?>
             <!--</div>-->
             <!-- Body inner end -->
+
+            <script type="application/ld+json">
+                {
+                "@context": "https://schema.org",
+                "@type": "RealEstateAgent",
+                "@id": "https://www.shyamgroups.co.in/#localbusiness",
+                "name": "Shyam Group",
+                "description": "Shyam Group is a trusted real estate developer in Dholera SIR, offering residential plots & land investment opportunities. RERA-linked projects, 700+ investors. Enquire now!",
+                "url": "https://www.shyamgroups.co.in/",
+                "image": "https://www.shyamgroups.co.in/images/logo.svg",
+                "telephone": "+91 8511332200",
+                "email": "info@shyamgroups.co.in",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "107-108, First Floor, I Square Corporate Park, Nr. CIMS Hospital, Science City Road, Sola",
+                    "addressLocality": "Ahmedabad",
+                    "addressRegion": "Gujarat",
+                    "postalCode": "380060",
+                    "addressCountry": "IN"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 23.0706181,
+                    "longitude": 72.5176358
+                },
+                "areaServed": [
+                    { "@type": "City", "name": "Dholera" },
+                    { "@type": "State", "name": "Gujarat" }
+                ],
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                    "opens": "10:00",
+                    "closes": "19:00"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+91 8511332200",
+                    "contactType": "customer service",
+                    "areaServed": "IN",
+                    "availableLanguage": ["English", "Hindi", "Gujarati"]
+                },
+                "sameAs": [
+                    "https://www.facebook.com/shyamgroups",
+                    "https://www.instagram.com/shyamgroup.official/",
+                    "https://www.linkedin.com/company/shyam-infrazone-private-limited/"
+                ]
+                }
+    </script>
 
     </body>
 

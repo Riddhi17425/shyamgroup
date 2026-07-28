@@ -110,7 +110,7 @@
                                             <div class="contact-info-box-content_icon">
                                                 <i class="fa fa-map-marker">&nbsp;</i>
                                                 <p> 107-108, First Floor, I Square Corporate Park, Nr. CIMS Hospital,
-                                                    Science City Road, Sola, Ahmedabad - 380059, Gujarat, India.</p>
+                                                    Science City Road, Sola, Ahmedabad - 380060, Gujarat, India.</p>
                                             </div>
                                         </div>
                                         <!-- <div class="contact-info-box-content mb-5">-->

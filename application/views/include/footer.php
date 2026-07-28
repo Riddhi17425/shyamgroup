@@ -102,7 +102,7 @@
           <span class="action-box-icon"><i class="fa fa-map-marker"></i></span>
           <div class="action-box-content">
             <h3>Ahmedabad Office</h3>
-            <a href="https://maps.app.goo.gl/qvX7ugjpkAotpFZQ8" target="_blank" rel="noopener noreferrer" class="action-box-text">Shyam Group:107-108, Square Corporate Park,<br> Nr. CIMS Hospital, Science City Road, Ahmedabad-59.<br></a>
+            <a href="https://maps.app.goo.gl/qvX7ugjpkAotpFZQ8" target="_blank" rel="noopener noreferrer" class="action-box-text">Shyam Group:107-108, Square Corporate Park,<br> Nr. CIMS Hospital, Science City Road, Ahmedabad-60.<br></a>
           </div>
         </div>
       </div>
@@ -115,7 +115,7 @@
           <div class="action-box-content">
             <h3>For Vendor</h3>
             <p class="action-box-text">Registration For Further Detail</p>
-            <p><a href="<?php echo base_url(); ?>vender" class="ft_btn"> Learn More</a></p>
+            <p><a href="<?php echo base_url(); ?>vender" class="ft_btn">Get in Touch</a></p>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@
               <i class="fa fa-envelope-o"></i> <span style="margin-left:8px;"><a href="mailto:info@shyamgroups.co.in" target="_blank" rel="noopener noreferrer" class="action-box-text">info@shyamgroups.co.in</a></span><br>
               <a href="tel:+918511332200" target="_blank" rel="noopener noreferrer" class="action-box-text">Call us :  +91 85 11 33 22 00</a>
             </p>
-            <p><a href="<?php echo base_url(); ?>contact-us" class="ft_btn"> Learn More</a></p>
+            <p><a href="<?php echo base_url(); ?>contact-us" class="ft_btn">Get in Touch</a></p>
           </div>
         </div>
       </div>
@@ -151,7 +151,7 @@
       <!--      <div class="action-box-content">-->
       <!--        <h3>Where We Are</h3>-->
       <!--        <p class="action-box-text">107-108, Square Corporate Park, -->
-      <!--        <br> Nr. CIMS Hospital, Science City Road, Ahmedabad-59. <br /> </p>-->
+      <!--        <br> Nr. CIMS Hospital, Science City Road, Ahmedabad-60. <br /> </p>-->
       <!--        <p><a href="<?php echo base_url(); ?>contact-us"><i class="fa fa-caret-right"> </i> Find More</a></p>-->
       <!--      </div>-->
       <!--    </div>-->
@@ -197,7 +197,7 @@
         <div class="col-md-6 col-sm-12 col-12 footer-widget ">
              <a href="<?php echo base_url(); ?>" > <img src="<?php echo base_url(); ?>images/logo.svg" alt="shyamgroup" width="170" height="90"></a>
               <p class="mt-5 mb-5">
-                Established in 2013, Shyam Group is one of the prominent real estate developers at Dholera SIR Gujarat. Apart from the real estate business the group operates across multiple sectors including healthcare, education and business research.</p>
+               Established in 2013, Shyam Group is one of the leading real estate developers in Dholera, offering residential plots in Dholera SIR and land investment opportunities backed by transparent, RERA-aligned processes.</p>
               <div class="ft_social">
                   <!--<img src="<?php echo base_url(); ?>images/new_images/x.svg" alt="shyamgroup" width="24" height="24">-->
                  <a href="https://www.instagram.com/shyamgroup.official/" target="_blank" rel="noopener noreferrer" title="Instagram">
@@ -237,8 +237,7 @@
           <!--</ul>-->
           <h3 class="widget-title">About Dholera Sir</h3>
           <ul class="list-arrow">
-           <li><a href="<?php echo base_url(); ?>dholera-news">Dholera News</a></li>
-                <li><a href="<?php echo base_url(); ?>dholera-videos">Dholera Videos</a></li>
+           <li><a href="<?php echo base_url(); ?>our-projects">Our Projects</a></li>
                 <!--<li><a href="<?php echo base_url(); ?>pressrelease">Media News</a></li>-->
                 <li><a href="<?php echo base_url(); ?>current-status-dholera">Current Status</a></li>
                 <li><a href="<?php echo base_url(); ?>tenders">Tenders</a></li>
@@ -279,7 +278,7 @@
         <!--<div class="col-md-5 col-sm-12 footer-widget">-->
         <!--  <h3 class="widget-title">Address</h3>-->
           <!--<div class="working-hours"> <i class="fa fa-home"> </i> <b class="ft_title">Ahmedabad Office :-</b> <br>-->
-          <!--  107-108, First Floor, I Square Corporate Park, Nr. CIMS Hospital, Science City Road, Sola, Ahmedabad - 380059, Gujarat, India. </div>-->
+          <!--  107-108, First Floor, I Square Corporate Park, Nr. CIMS Hospital, Science City Road, Sola, Ahmedabad - 380060, Gujarat, India. </div>-->
           <!--<br>-->
         <!--  <div class="working-hours"> -->
         <!--  <i class="fa fa-home"> </i> <b class="ft_title">Mumbai Office :-</b> <br>-->

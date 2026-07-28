@@ -11,13 +11,13 @@ class Home extends CI_Controller
         $this->load->model('projects_model');
         $this->load->model('news_model');
         $this->load->model('Print_media_model');
-
+        $this->load->model('Home_faq_model');
     }
 
     public function index()
     {
-        $data['meta_title']       = "Residential Plots and Land Investment in Dholera SIR | Shyam Group";
-        $data['meta_description'] = "Shyam Groups offers advanced residential plots in Dholera SIR, and provides a wide range of options to own property in Dholera.";
+        $data['meta_title']       = "Trusted Real Estate Developer in Dholera SIR | Shyam Group";
+        $data['meta_description'] = "Shyam Group is a trusted real estate developer in Dholera SIR, offering residential plots & land investment opportunities. RERA-linked projects, 700+ investors. Enquire now!";
         $data['meta_image']       = base_url('images/og-default.jpg');
 
         $data['tbl_banner']      = $this->banner_model->get_banner_list();
@@ -27,6 +27,7 @@ class Home extends CI_Controller
         $data['tbl_testimonial'] = $this->projects_model->get_testimonial();
         $data['projects']        = $this->projects_model->get_projects_list();
         $data['print_images']    = $this->Print_media_model->get_all_images();
+        $data['tbl_faqs']        = $this->Home_faq_model->get_home_faqs();
         $this->load->view('home', $data);
     }
 

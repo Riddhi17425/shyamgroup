@@ -92,7 +92,6 @@
         }
         .dropdown-mega > .dropdown-toggle {
             display: inline-block;
-            padding: 15px 8px;   /* match your existing nav link padding */
             cursor: pointer;
         }
  </style>

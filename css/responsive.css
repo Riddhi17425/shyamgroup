@@ -1210,5 +1210,11 @@ padding: 6px 0;
   .print-media-masonry {
     column-count: 1;
   }
+   .why-choose-shyam .why-choose-icons .col-sm-6 {
+        width: 100%;
+    }
+    .why-choose-shyam .why-choose-box {
+        margin-bottom: 25px;
+    }
 }
 
