@@ -703,8 +703,8 @@
             <section>
                 <div class="container">
                     <div class="row text-center">
-                        <h2 class="border-title">Hear from investors who chose Shyam Group for land investment in Dholera</h2>
-                        <!--<p class="border-sub-title"> </p>-->
+                        <h2 class="border-title">What our client says</h2>
+                       <p class="border-sub-title">Hear from investors who chose Shyam Group for land investment in Dholera.</p>
                     </div>
                     <!--/ Title row end -->
 
