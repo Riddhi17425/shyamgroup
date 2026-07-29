@@ -4881,3 +4881,64 @@ table tbody tr:hover {
   line-height: 1.6;
   padding-bottom: 18px;
 }
+/* print-media page css */
+  .media-tabs {
+            margin: 30px 0;
+            border-bottom: 2px solid #eee;
+            display: flex;
+            justify-content: center;
+        }
+
+        .media-tabs>li {
+            float: none;
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .media-tabs>li>a {
+            border: none;
+            border-radius: 10px 10px 0% 0%;
+            color: #555;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 12px 30px;
+            transition: .3s;
+        }
+
+        .media-tabs>li.active>a,
+        .media-tabs>li.active>a:hover,
+        .media-tabs>li.active>a:focus {
+            background: #e86f22;
+            color: #fff;
+            border: none;
+        }
+
+        .media-tabs>li>a:hover {
+            background: #e86f22;
+            color: #fff;
+        }
+
+        .tab-content {
+            margin-top: 30px;
+        }
+
+        .gallery-item {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: #fff;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gallery-item h4 {
+            margin-top: 15px;
+            font-size: 24px;
+            color: #f57c00;
+            line-height: 1.4;
+        }
+        

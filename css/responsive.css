@@ -64,8 +64,6 @@
     }
 }
 
-}
-
 /* Medium Devices, Desktops */
 @media (min-width: 992px) and (max-width:1199px){
 
@@ -454,7 +452,7 @@
 
 .Social_btn
 {
-    bottom:35%;
+    bottom:43%;
 }
 
 .footer_main_child_rt {
@@ -1216,5 +1214,12 @@ padding: 6px 0;
     .why-choose-shyam .why-choose-box {
         margin-bottom: 25px;
     }
-}
 
+}
+@media (max-width: 480px){
+.print-media-masonry{
+	    grid-template-columns: repeat(1, 1fr);
+		grid-auto-rows: unset;
+		gap: 20px;
+}
+}

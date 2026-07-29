@@ -79,7 +79,7 @@ $db['default'] = [
 
     'username'     => 'root',
     'password'     => '',
-    'database'     => 'shyamgroup',
+    'database'     => 'shyam_db',
 
     // 'username' => 'root',
     // 'password' => '',
