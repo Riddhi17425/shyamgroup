@@ -380,7 +380,7 @@
                                              class="fa fa-angle-down"></i></a>
                                      <ul class="inner_ul">
                                          <li>
-                                             <a class="inner_a">plots <i class="fa fa-angle-down"></i></a>
+                                             <a class="inner_a">Plots <i class="fa fa-angle-down"></i></a>
                                             <!-- ADD this -->
                                           <ul class="inner_child_ul" id="mobile-plots-list"></ul>
                                          </li>
