@@ -349,9 +349,9 @@ Enquire Now
 <img src="<?php echo base_url(); ?>images/whatsapp (1).png" alt="whatsapp-img" width=65>
 </a>
 
-<a href="https://www.shyamgroups.co.in/social-media" type="button" class="btn btn-primary Social_btn">
+<!-- <a href="https://www.shyamgroups.co.in/social-media" type="button" class="btn btn-primary Social_btn">
 Social Media
-</a>
+</a> -->
 
 
 <div class="modal fade" id="enquireModal" tabindex="-1" role="dialog" aria-labelledby="enquireModalLabel" aria-hidden="true">
