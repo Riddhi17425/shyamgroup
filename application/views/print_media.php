@@ -150,44 +150,64 @@
                     <div role="tabpanel" class="tab-pane fade" id="online-media">
 
                         <div class="row">
-                                                            
-                                                            <div class="col-md-5">
-                                                                <div id="website_project_54">
-	                                                                <img src="https://dholera.gujarat.gov.in/web/image?model=media.print&field=article_image&id=54" alt="Trains at 220 kmph on Indian Railways soon! Cabinet approves Ahmedabad-Dholera semi high-speed rail project." class="img-fluid" />
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-7 read-more-container mt-3 mt-md-0">
-                                                                <div class="card-block px-6">
-                                                                    <div class="d-flex justify-content-between align-items-center mb8 w-100">
-                                                                        <div>
-                                                                            <p class="font16 text-muted mb-0">
-                                                                                13-05-2026
-                                                                            </p>
-                                                                        </div>
-                                                                        <div class="d-flex flex-wrap gap-1">
-                                                                            
-                                                                                <span class="badge bg-primary rounded-pill px-2 py-1 mr8">
-                                                                                    <i class="fa fa-tag me-1"></i>
-                                                                                    Times of India
-                                                                                </span>
-                                                                            
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                    
-                                                                        <a target="_blank" href="https://timesofindia.indiatimes.com/business/india-business/trains-at-220-kmph-on-indian-railways-soon-cabinet-approves-ahmedabad-dholera-semi-high-speed-rail-project-check-details/articleshow/131062621.cms">
-                                                                            <h3 class="p_heading_normal">Trains at 220 kmph on Indian Railways soon! Cabinet approves Ahmedabad-Dholera semi high-speed rail project.</h3>
-                                                                        </a>
-                                                                    
-                                                                    
-                                                                        <p class="p_text text-truncate-6 text-truncate-3" id="scope_desc_54" data-lines="6">
-                                                                            Trains at the speed of 220 kmph may soon run on Indian Railways  with the Cabinet Committee on Economic Affairs, led by PM Narendra Modi, approving a new railway line. The CCEA gave its go ahead for Ahmedabad (Sarkhej) – Dholera semi high-speed double line project on Wednesday.  Sabarmati to Dholera travel time will come down to 48 minutes with the new railway line, Railway minister Ashwini Vaishnaw said.
-                                                                        </p>
-                                                                    
-                                                                   <a class="btn btn-primary"> read more</a>
-                                                                </div>
-                                                            </div>
+                            <?php if (!empty($online_media)): ?>
+                                <?php foreach ($online_media as $item): ?>
+                                    <?php
+                                    $image = !empty($item->image)
+                                        ? (preg_match('/^https?:\/\//i', $item->image) ? $item->image : base_url('documents/online_media/' . $item->image))
+                                        : base_url('images/default-news.jpg');
+                                    $publish_date = !empty($item->publish_date) ? date('d-m-Y', strtotime($item->publish_date)) : 'N/A';
+                                    $article_link = !empty($item->link) ? $item->link : '#';
+                                    ?>
+                                    <div class="col-md-12 mb-4">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div id="website_project_<?php echo htmlspecialchars($item->id); ?>">
+                                                    <img src="<?php echo $image; ?>"
+                                                        alt="<?php echo htmlspecialchars($item->title, ENT_QUOTES); ?>"
+                                                        class="img-fluid" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 read-more-container mt-3 mt-md-0">
+                                                <div class="card-block px-6">
+                                                    <div class="d-flex justify-content-between align-items-center mb8 w-100">
+                                                        <div>
+                                                            <p class="font16 text-muted mb-0">
+                                                                <?php echo $publish_date; ?>
+                                                            </p>
                                                         </div>
+                                                        <div class="d-flex flex-wrap gap-1">
+                                                            <?php if (!empty($item->source)): ?>
+                                                                <span class="badge bg-primary rounded-pill px-2 py-1 mr8">
+                                                                    <i class="fa fa-tag me-1"></i>
+                                                                    <?php echo htmlspecialchars($item->source); ?>
+                                                                </span>
+                                                            <?php endif; ?>
+                                                        </div>
+                                                    </div>
+
+                                                    <a target="_blank" rel="noopener noreferrer" href="<?php echo htmlspecialchars($article_link, ENT_QUOTES); ?>">
+                                                        <h3 class="p_heading_normal"><?php echo htmlspecialchars($item->title); ?></h3>
+                                                    </a>
+
+                                                    <?php if (!empty($item->description)): ?>
+                                                        <p class="p_text text-truncate-6 text-truncate-3" data-lines="6">
+                                                            <?php echo htmlspecialchars($item->description); ?>
+                                                        </p>
+                                                    <?php endif; ?>
+
+                                                    <a class="btn btn-primary" href="<?php echo htmlspecialchars($article_link, ENT_QUOTES); ?>" target="_blank" rel="noopener noreferrer">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            <?php else: ?>
+                                <div class="col-md-12 text-center">
+                                    <p class="mt-4">No online media items available right now.</p>
+                                </div>
+                            <?php endif; ?>
+                        </div>
 
                     </div>
 
