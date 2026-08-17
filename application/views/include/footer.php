@@ -86,6 +86,24 @@
 .whatsapp-btn-footer {
     animation: whatsapp-bounce 2.5s ease-in-out infinite;
 }
+
+.whatsapp-btn .btn-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: btnSpin 0.7s linear infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+@keyframes btnSpin {
+    to {
+        transform: rotate(360deg);
+    }
+}
 </style>
 <?php
     $segment         = $this->uri->segment(1);
@@ -466,7 +484,7 @@ Social Media
 
 
           <div class="text-center">
-            <button type="submit" class="btn whatsapp-btn">
+            <button type="submit" class="btn whatsapp-btn" id="whatsappSubmitBtn">
               Start Chat with Us
             </button>
           </div>
@@ -482,6 +500,28 @@ Social Media
 </div>
 
   <!-- Modal for WhatsApp Inquiry -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var form = document.getElementById('whatsappForm');
+  var btn  = document.getElementById('whatsappSubmitBtn');
+
+  if (form && btn) {
+    form.addEventListener('submit', function (e) {
+      // Agar HTML5 required validation fail ho rahi hai to text change mat karo
+      if (!form.checkValidity()) {
+        return; // browser apna default validation message dikha dega
+      }
+
+      // Button text change + disable (double click/double submit rokne ke liye)
+       btn.innerHTML = '<span class="btn-spinner"></span>Connecting to WhatsApp...';      btn.disabled = true;
+
+      // form apne aap submit ho jayega (redirect wagera controller se hoga)
+    });
+  }
+});
+</script>
+
 
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
