@@ -80,6 +80,8 @@ $route['our-projects'] = 'Our_Projects';
 $route['whatsapp/inquiry'] = 'whatsapp/inquiry';
 
 $route['thank-you'] = 'home/thanks';
+$route['privacy-policy'] = 'home/privacy_policy';
+$route['terms-conditions'] = 'home/terms_conditions';
 $route['(:any)'] = 'Project/slug_to_id/$1';
 $route['pinnacle-city']     = 'Project/index/5';
 $route['dholera-global-city']     = 'Project/index/6';
@@ -87,3 +89,4 @@ $route['fort-villa']     = 'Fort_villa';
 $route['smart-city-dholera-2']     = 'Project/index/9';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+

@@ -40,4 +40,22 @@ class Home extends CI_Controller
         $data['tbl_news_footer'] = $this->news_model->get_news_footer_list();
         $this->load->view('thankyou', $data);
     }
+
+    public function privacy_policy()
+    {
+        $data['meta_title']       = "Privacy Policy | Shyam Group";
+        $data['meta_description'] = "Read Shyam Group's Privacy Policy to understand how we collect, use, and protect your personal information.";
+        $data['meta_image']       = base_url('images/og-default.jpg');
+
+        $this->load->view('privacy-policy', $data);
+    }
+
+    public function terms_conditions()
+    {
+        $data['meta_title']       = "Terms & Conditions | Shyam Group";
+        $data['meta_description'] = "Read Shyam Group's Terms & Conditions governing the use of our website and services.";
+        $data['meta_image']       = base_url('images/og-default.jpg');
+
+        $this->load->view('terms-conditions', $data);
+    }
 }

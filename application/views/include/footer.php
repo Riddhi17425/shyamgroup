@@ -325,7 +325,9 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4">
-          <div class="copyright-info"> <span>Privacy Policy</span> </div>
+          <div class="copyright-info"> 
+              <a href="<?php echo base_url(); ?>privacy-policy" style="color: inherit; text-decoration: none;">Privacy Policy</a> 
+          </div>
         </div>
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="copyright-info">
@@ -334,7 +336,9 @@
 
         </div>
         <div class="col-xs-12 col-sm-4 text-right">
-          <div class="copyright-info"> <span>Terms & Conditions</span> </div>
+          <div class="copyright-info">  
+            <a href="<?php echo base_url(); ?>terms-conditions" style="color: inherit; text-decoration: none;">Terms & Conditions</a> 
+         </div>
         </div>
         <!--<div class="col-xs-12 col-sm-6">-->
         <!--  <div class="footer-menu">-->
