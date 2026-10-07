@@ -82,6 +82,7 @@ $route['whatsapp/inquiry'] = 'whatsapp/inquiry';
 $route['thank-you'] = 'home/thanks';
 $route['privacy-policy'] = 'home/privacy_policy';
 $route['terms-conditions'] = 'home/terms_conditions';
+$route['sitemap.xml'] = 'sitemap/index';
 $route['(:any)'] = 'Project/slug_to_id/$1';
 $route['pinnacle-city']     = 'Project/index/5';
 $route['dholera-global-city']     = 'Project/index/6';

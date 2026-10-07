@@ -462,12 +462,8 @@ Social Media
         </div>
       </div>
 
-
       <div class="modal-body">
-        <form id="whatsappForm" method="post"
-      action="<?php echo site_url('whatsapp/inquiry'); ?>">
-
-
+        <form id="whatsappForm" method="post" action="<?php echo site_url('whatsapp/inquiry'); ?>">
           <div class="form-group">
             <label>Message</label>
             <textarea class="form-control"
@@ -476,16 +472,16 @@ Social Media
               rows="3"></textarea>
           </div>
 
-
           <div class="form-group">
             <label>Contact No. <span class="text-danger">*</span></label>
             <input type="text"
               class="form-control"
               name="phone"
+              minlength="10"
+              maxlength="15"
               placeholder="+91 Enter your number"
               oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0,15);" required>
           </div>
-
 
           <div class="text-center">
             <button type="submit" class="btn whatsapp-btn" id="whatsappSubmitBtn">

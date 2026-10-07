@@ -210,6 +210,7 @@
                                         class="btn btn-primary solid blank">
                                 </div>
                             </form>
+                            
                         </div>
                     </div>
                     <!-- Content row -->
