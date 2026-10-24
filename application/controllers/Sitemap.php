@@ -67,23 +67,17 @@ class Sitemap extends CI_Controller
         // STATIC PAGES
         $static_pages = [
             'company-profile',
-            'vision-and-mission',
-            'team',
-            'associate-team',
             'dholera-news',
             'dholera-videos',
-            'pressrelease',
             'current-status-dholera',
             'tenders',
             'legal-documents',
             'testimonials',
-            'certificate',
             'contact-us',
             'print-media',
             'awards',
             'gallery',
             'vender',
-            'social-media',
             'blogs',
         ];
 
