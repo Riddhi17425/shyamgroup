@@ -342,7 +342,7 @@ class Contact_Us extends CI_Controller
         ]);
 
         $ch = curl_init(
-            'https://script.google.com/macros/s/AKfycbzV5vmpYsLTa19SyEpF-mmcxeNLROCb7QdOAVvgWq9jwa73KNXTYvrafNFFEgxBRpSy/exec'
+            'https://script.google.com/macros/s/AKfycbzi0UFa7Y9Hw2SNNc23L5cAN4b929zxz3tMeMrhDpgMnFMFmKuoSi_fQqVcSVWmWdEE/exec'
         );
 
         curl_setopt($ch, CURLOPT_POST, true);

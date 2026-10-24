@@ -84,7 +84,7 @@ class Whatsapp extends CI_Controller
         curl_setopt(
             $ch,
             CURLOPT_URL,
-            "https://script.google.com/macros/s/AKfycbxCGycKNlFsxiIBW6XX20E7zNEeuxRnjImZgbFxpuRssLXXejW54bbUs_L9p1wkC-rg/exec"
+            "https://script.google.com/macros/s/AKfycbzx5c633cEsg_Z-l1ZNdvNDJBIJ7s9kGJ4Of06wet6UdgEGmfK3TPjqycsVn_sMKgslWA/exec"
         );
 
         curl_setopt($ch, CURLOPT_POST, 1);
