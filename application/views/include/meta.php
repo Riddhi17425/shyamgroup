@@ -34,7 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:image" content="<?php echo $page_image; ?>">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
-<meta property="og:url" content="<?php echo current_url(); ?>">
+<meta property="og:url" content="<?php echo str_replace('/index.php', '', current_url()); ?>">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
