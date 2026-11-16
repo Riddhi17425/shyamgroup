@@ -77,9 +77,9 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 
-    'username' => 'pcsgltqw_shyamgroup',
-	'password' => 'I-F,aoc0J2VR',
-	'database' => 'pcsgltqw_shyamgroup',
+    'username' => 'root',
+	'password' => '',
+	'database' => 'shyamgroup',
 
 	// 'username' => 'root',
 	// 'password' => '',
