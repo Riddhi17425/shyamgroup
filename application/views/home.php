@@ -83,7 +83,7 @@
 
                         </div>
                         <div class="col-sm-12 why-choose-shyam">
-                           <h2 class="border-title">Why Choose Shyam Group for Land Investment in Dholera SIR</h2>
+                           <h2 class="border-title">Why Choose Shyam Group for Land Investment in Dholera SIR ?</h2>
                             <p>Land investment in Dholera is widely regarded as one of India's strongest long-term real estate opportunities, backed by Dholera SIR's status as the country's first planned Greenfield smart city under the Delhi-Mumbai Industrial Corridor (DMIC). With the international airport, Tata semiconductor plant, and 6-lane expressway all under active development, Dholera land investment today captures ground-floor pricing before infrastructure completion drives values up.</p>
                             <p>Shyam Group structures every residential plot in Dholera as a documented, RERA-compliant investment with resale assistance most developers don't offer.</p>
 
@@ -704,7 +704,7 @@
                 <div class="container">
                     <div class="row text-center">
                         <h2 class="border-title">What our client says</h2>
-                       <p class="border-sub-title">Hear from investors who chose Shyam Group for land investment in Dholera.</p>
+                       <p class="border-sub-title">Hear from investors who chose Shyam Group for land investment in Dholera</p>
                     </div>
                     <!--/ Title row end -->
 
@@ -849,54 +849,7 @@
             <!--</div>-->
             <!-- Body inner end -->
 
-            <script type="application/ld+json">
-                {
-                "@context": "https://schema.org",
-                "@type": "RealEstateAgent",
-                "@id": "https://www.shyamgroups.co.in/#localbusiness",
-                "name": "Shyam Group",
-                "description": "Shyam Group is a trusted real estate developer in Dholera SIR, offering residential plots & land investment opportunities. RERA-linked projects, 700+ investors. Enquire now!",
-                "url": "https://www.shyamgroups.co.in/",
-                "image": "https://www.shyamgroups.co.in/images/logo.svg",
-                "telephone": "+91 8511332200",
-                "email": "info@shyamgroups.co.in",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "107-108, First Floor, I Square Corporate Park, Nr. CIMS Hospital, Science City Road, Sola",
-                    "addressLocality": "Ahmedabad",
-                    "addressRegion": "Gujarat",
-                    "postalCode": "380060",
-                    "addressCountry": "IN"
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": 23.0706181,
-                    "longitude": 72.5176358
-                },
-                "areaServed": [
-                    { "@type": "City", "name": "Dholera" },
-                    { "@type": "State", "name": "Gujarat" }
-                ],
-                "openingHoursSpecification": {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                    "opens": "10:00",
-                    "closes": "19:00"
-                },
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "telephone": "+91 8511332200",
-                    "contactType": "customer service",
-                    "areaServed": "IN",
-                    "availableLanguage": ["English", "Hindi", "Gujarati"]
-                },
-                "sameAs": [
-                    "https://www.facebook.com/shyamgroups",
-                    "https://www.instagram.com/shyamgroup.official/",
-                    "https://www.linkedin.com/company/shyam-infrazone-private-limited/"
-                ]
-                }
-    </script>
+           
 
     </body>
 

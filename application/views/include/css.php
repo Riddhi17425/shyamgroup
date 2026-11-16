@@ -1,11 +1,12 @@
-<!--canonical tag -->
+<!-- canonical tag -->
 <?php
-$canonical = strtok(current_url(), '?');            // remove ? params
-$canonical = str_replace("index.php", "", $canonical); // remove index.php/
-$canonical = rtrim($canonical, '/');
+$canonical = strtok(current_url(), '?'); // Remove query parameters
+$canonical = str_replace("index.php", "", $canonical); // Remove index.php
+$canonical = rtrim($canonical, '/'); // Remove trailing slash
+$canonical = preg_replace('#(?<!:)//+#', '/', $canonical); // Remove duplicate slashes except https://
 ?>
-<link rel="canonical" href="<?= $canonical; ?>" />
-<!--canonical tag end  -->
+<link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8'); ?>" />
+<!-- canonical tag end -->
 
 <!--Favicon-->
 <link rel="shortcut icon" href="<?php echo base_url(); ?>images/favicon.ico" type="image/x-icon">
@@ -41,6 +42,7 @@ $canonical = rtrim($canonical, '/');
       <script src="<?php echo base_url(); ?>js/respond.min.js"></script>
     <![endif]-->
 <!-- Meta Pixel Code -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
