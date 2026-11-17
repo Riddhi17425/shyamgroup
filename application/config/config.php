@@ -24,7 +24,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/shyam/';
-$config['base_url'] = 'https://www.shyamgroups.co.in/';
+if (isset($_SERVER['HTTP_HOST']) && preg_match('/^(localhost|127\.0\.0\.1)(:\d+)?$/', $_SERVER['HTTP_HOST'])) {
+	// Local development: build base URL from the current request
+	$config['base_url'] = 'http://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') . '/';
+} else {
+	$config['base_url'] = 'https://www.shyamgroups.co.in/';
+}
 
 /*
 |--------------------------------------------------------------------------
