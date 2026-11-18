@@ -50,9 +50,9 @@
             <section class="call-to-action">
                 <div class="container">
                     <div class="coman_routs">
-                        <div>
-                            <h3 class="call-to-action-title"><?php echo $blog_detail['title']; ?>
-                        </div>
+                        <!--<div>-->
+                        <!--    <h3 class="call-to-action-title"><?php echo $blog_detail['title']; ?>-->
+                        <!--</div>-->
                         <div>
                             <p class="com_he_tab"> <a href="<?php echo base_url(); ?>home">Home ></a> <?php echo $blog_detail['title']; ?></p>
                         </div>
@@ -87,11 +87,11 @@
                     </div>
 
                     <div class="pro_det_banner">
-                        <a href="https://www.shyamgroups.co.in/contact-us"> <img width="100%" src="<?php echo base_url(); ?>images/blogimages/<?php echo $blog_detail['conclusion_image']; ?>"
+                       <a href="https://www.shyamgroups.co.in/contact-us"> <img width="100%" src="<?php echo base_url(); ?>images/blogimages/<?php echo $blog_detail['conclusion_image']; ?>"
                             alt="<?php echo $blog_detail['title']; ?>"></a>
                     </div>
                     <div class="pro_det_con">
-                        <h3>Conclusion</h3>
+                        <h2>Conclusion</h2>
                         <?php echo $blog_detail['conclusion_detail']; ?>
                     </div>
                 </div>

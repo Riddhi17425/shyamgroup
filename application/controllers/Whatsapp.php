@@ -123,7 +123,7 @@ class Whatsapp extends CI_Controller
         $url = "https://api.whatsapp.com/send/?phone={$myNumber}&text=" . urlencode($defaultMessage);
         redirect($url);
     }
-
+    
     private function is_english_only($text)
     {
         return preg_match(

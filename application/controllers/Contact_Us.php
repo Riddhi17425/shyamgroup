@@ -341,6 +341,9 @@ class Contact_Us extends CI_Controller
             'created_at' => date('Y-m-d H:i:s'),
         ]);
 
+        // $ch = curl_init(
+        //     'https://script.google.com/macros/s/AKfycbzV5vmpYsLTa19SyEpF-mmcxeNLROCb7QdOAVvgWq9jwa73KNXTYvrafNFFEgxBRpSy/exec'
+        // );
         $ch = curl_init(
             'https://script.google.com/macros/s/AKfycbzi0UFa7Y9Hw2SNNc23L5cAN4b929zxz3tMeMrhDpgMnFMFmKuoSi_fQqVcSVWmWdEE/exec'
         );

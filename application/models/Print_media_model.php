@@ -12,7 +12,7 @@ class Print_media_model extends CI_Model
             return [];
         }
 
-        return $this->db->order_by('id', 'ASC')->get('print_media')->result();
+        return $this->db->order_by('id', 'DESC')->get('print_media')->result();
     }
 
     public function ensure_online_media_data()

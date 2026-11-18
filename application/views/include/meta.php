@@ -41,3 +41,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:title" content="<?php echo $page_title; ?>">
 <meta name="twitter:description" content="<?php echo $page_desc; ?>">
 <meta name="twitter:image" content="<?php echo $page_image; ?>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Shyam Group",
+  "image": "https://www.shyamgroups.co.in/images/logo.svg",
+  "@id": "",
+  "url": "https://www.shyamgroups.co.in/",
+  "telephone": "08511332200",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "107-108, First Floor, I Square Corporate Park, Nr. CIMS Hospital, Science City Road, Sola",
+    "addressLocality": "Ahmedabad",
+    "postalCode": "380060",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.070851,
+    "longitude": 72.5175253
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "19:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/shyamgroups",
+    "https://www.instagram.com/shyamgroup.official/",
+    "https://www.linkedin.com/company/shyam-infrazone-private-limited/"
+  ] 
+}
+</script>
+<!-- canonical tag -->
+<?php
+$canonical = strtok(current_url(), '?'); // Remove query parameters
+$canonical = str_replace("index.php", "", $canonical); // Remove index.php
+$canonical = rtrim($canonical, '/'); // Remove trailing slash
+$canonical = preg_replace('#(?<!:)//+#', '/', $canonical); // Remove duplicate slashes except https://
+?>
+<link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8'); ?>" />
+<!-- canonical tag end -->
